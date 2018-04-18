@@ -1,0 +1,134 @@
+﻿
+<section class="right-content" ng-controller="SupplyReportCtrl">
+    <div class="row top-row-strip">
+        <div class="col-md-12">
+            <ol class="breadcrumb">
+                <li>Reports</li>
+                <li class="active">{{RptHeader}}</li>
+            </ol>
+        </div>
+    </div>
+
+
+    <div>
+        <div class="row">
+            <div class="col-md-2">
+                Mode of Transaction
+            </div>
+            <div class="col-md-3">
+                <select ng-model="FromType" name="FromType" class="form-control" ng-required="true" ng-change="GetFromTypeNames()" ng-options="a.Text as a.Text for a in FromTypes">
+                    <option value="" style="display:none">Select From Type</option>
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <div class="radio">
+                    <label class="control-label">
+                        Name
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <select ng-model="FromTypeName" name="FromTypeName" class="form-control" ng-required="true" ng-options="a.Text as a.Text for a in FromTypeNames">
+                    <option value="" style="display:none">Select From Type Name</option>
+                </select>
+            </div>
+
+            <div class="col-md-1">
+                <button type="submit" id="btnSubmit" ng-click="GetSupplyReport()" class="btn btn-primary btn-sm">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 table-responsive">
+            <table class="table table-bordered table-striped ">
+                <tr>
+                    <th ng-click="sortKey ='$id*1'; reverse=!reverse" ng-init="sortKey = '$id*1';reverse = false">
+                        S.No
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != '$id*1','glyphicon-sort-by-order-alt':sortKey == '$id*1' && reverse,'glyphicon-sort-by-order':sortKey == '$id*1' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='ReceiptNo' ">
+                        Inward No
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'ReceiptNo','glyphicon-sort-by-alphabet-alt':sortKey == 'ReceiptNo' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'ReceiptNo' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='ReceiptDate' ">
+                        Challana Date
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'ReceiptDate','glyphicon-sort-by-order-alt':sortKey == 'ReceiptDate' && reverse,'glyphicon-sort-by-order':sortKey == 'ReceiptDate' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='ItemType'">
+                        Item Group
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'ItemType','glyphicon-sort-by-alphabet-alt':sortKey == 'ItemType' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'ItemType' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='ItemName'">
+                        Item Name
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'ItemName','glyphicon-sort-by-alphabet-alt':sortKey == 'ItemName' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'ItemName' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='Unit'">
+                        Unit
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'Unit','glyphicon-sort-by-alphabet-alt':sortKey == 'Unit' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'Unit' && !reverse}"></span>
+                    </th>
+
+                    <th ng-click="reverse=!reverse ; sortKey='Qty' ">
+                        Qty
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'Qty','glyphicon-sort-by-alphabet-alt':sortKey == 'Qty' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'Qty' && !reverse}"></span>
+                    </th>
+                    
+                                   </tr>
+                <tr>
+                    <th>
+                        <a ng-click="search=''" class="pointer-sort">
+                            <i class="fa fa-refresh fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </th>
+
+                    <th>
+                        <input type="text" ng-model="search.ReceiptNo" placeholder="Search.." />
+                    </th>
+
+                    <th>
+                        <input type="text" ng-model="search.ReceiptDate" placeholder="Search.." />
+                    </th>
+                    <th>
+                        <input type="text" ng-model="search.ItemType" placeholder="Search.." />
+                    </th>
+                    <th>
+                        <input type="text" ng-model="search.ItemName" placeholder="Search.." />
+                    </th>
+                    <th>
+                        <input type="text" ng-model="search.Unit" placeholder="Search.." />
+                    </th>
+
+                    <th>
+                        <input type="text" class="search-Qty" ng-model="search.Qty" placeholder="Search.." />
+                    </th>
+                 </tr>
+                <tr dir-paginate="RegRpt in SupplyReport | filter:search | orderBy:sortKey:reverse | itemsPerPage:ItemsperPage">
+                    <td width="80px" class="label-center">{{RegRpt.$id}}</td>
+                    <td class="label-left">{{RegRpt.ReceiptNo}}</td>
+                    <td class="label-left">{{RegRpt.ReceiptDate  | date:'dd MMM yyyy'}}</td>
+                    <td class="label-left">{{RegRpt.ItemType}}</td>
+                    <td class="label-left">{{RegRpt.ItemName}}</td>
+                    <td class="label-left">{{RegRpt.Unit}}</td>
+                    <td class="label-right">{{RegRpt.Qty}}</td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <dir-pagination-controls max-size="15" direction-links="true" boundary-links="true">
+            </dir-pagination-controls>
+        </div>
+        <div class="col-md-2">
+            <label>Items per page:</label>
+        </div>
+        <div class="col-md-1">
+            <input type="number" class="form-control" value="10" min="10" step="10" ng-pattern="/^(0|[1-9][0-9]*)$/" ng-model="ItemsperPage">
+        </div>
+        <div class="col-md-1">
+            <a><img ng-click="exportToExcel()" src="../Images/excel.png" /></a>
+        </div>
+    </div>
+</section>
+

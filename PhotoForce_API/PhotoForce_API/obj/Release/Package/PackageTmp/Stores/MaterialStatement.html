@@ -1,0 +1,126 @@
+﻿<style>
+    .no-spinners {
+        -moz-appearance: textfield;
+    }
+
+        .no-spinners::-webkit-outer-spin-button,
+        .no-spinners::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+</style>
+<section class="right-content" ng-controller="MaterialReportCtrl">
+    <div class="row top-row-strip">
+        <div class="col-md-12">
+            <ol class="breadcrumb">
+                <li>Reports</li>
+                <li class="active">{{RptHeader}}</li>
+            </ol>
+        </div>
+
+    </div>
+    
+    <div>
+        <div class="row">
+            <div class="col-md-2">
+                Mode of Transaction
+            </div>
+            <div class="col-md-3">
+                <select ng-model="FromType" name="FromType" class="form-control" ng-required="true" ng-change="GetFromTypeNames()" ng-options="a.Text as a.Text for a in FromTypes">
+                    <option value="" style="display:none">Select Mode of Transaction</option>
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <div class="radio">
+                    <label class="control-label">
+                        Name
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <select ng-model="FromTypeName" name="FromTypeName" class="form-control" ng-required="true" ng-options="a.Text as a.Text for a in FromTypeNames">
+                    <option value="" style="display:none">Select From Type Name</option>
+                </select>
+            </div>
+
+            <div class="col-md-1">
+                <button type="submit" id="btnSubmit" ng-click="GetMaterialReport()" class="btn btn-primary btn-sm">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 table-responsive">
+            <table border="1">
+                <tr>
+                    <th ng-click="reverse=!reverse ; sortKey='ReceiptNo' ">
+                        Description of Material
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'ReceiptNo','glyphicon-sort-by-alphabet-alt':sortKey == 'ReceiptNo' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'ReceiptNo' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='ReceiptDate' ">
+                        Challana No. and Date
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'ReceiptDate','glyphicon-sort-by-order-alt':sortKey == 'ReceiptDate' && reverse,'glyphicon-sort-by-order':sortKey == 'ReceiptDate' && !reverse}"></span>
+                    </th>
+
+                    <th ng-click="reverse=!reverse ; sortKey='ItemType'">
+                        Unit
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'ItemType','glyphicon-sort-by-alphabet-alt':sortKey == 'ItemType' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'ItemType' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='ItemName'">
+                        Qty Issued
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'ItemName','glyphicon-sort-by-alphabet-alt':sortKey == 'ItemName' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'ItemName' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='Unit'">
+                        Qty Used
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'Unit','glyphicon-sort-by-alphabet-alt':sortKey == 'Unit' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'Unit' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='IsClass1'">
+                        Qty Available at Site
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'IsClass1','glyphicon-sort-by-alphabet-alt':sortKey == 'IsClass1' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'IsClass1' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='Qty' ">
+                        Qty Returned to Store
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'Qty','glyphicon-sort-by-alphabet-alt':sortKey == 'Qty' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'Qty' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='Qty' ">
+                        DMTR Particulars
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'Qty','glyphicon-sort-by-alphabet-alt':sortKey == 'Qty' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'Qty' && !reverse}"></span>
+                    </th>
+                </tr>
+
+                <tr dir-paginate="RegRpt in MaterialReport | filter:search | orderBy:sortKey:reverse | itemsPerPage:ItemsperPage ">
+                  
+                    <td width="20%" class="label-left"><label ng-show="{{RegRpt.ItemRank == '1' }} ">{{RegRpt.ItemName}}</label> </td>
+                    <td width="20%" class="label-left">{{RegRpt.ReceiptDate}}</td>
+                    <td width="5%" class="label-center">{{RegRpt.Unit}}</td>
+                    <td width="5%" class="label-center">{{RegRpt.QtyIssued}}</td>
+                    <td width="2%" class="label-center"><input ng-show="{{RegRpt.Unit == 'Total' }} " class="no-spinners" style="width: 70px;" type="number" name="{{$index+1}}" autocomplete="off" ng-model="RegRpt.QtyUsed" width="100"></td>
+                    <td width="5%" class="label-center"><label ng-show="{{RegRpt.Unit == 'Total' }} ">{{RegRpt.QtyIssued - RegRpt.QtyUsed}}</label> </td>
+                    <td width="5%" class="label-center">{{RegRpt.QtyReturned}}</td>
+                    <td width="25%" class="label-left">{{RegRpt.DMTRNo}}</td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="row form-group">
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <dir-pagination-controls max-size="15" direction-links="true" boundary-links="true">
+                </dir-pagination-controls>
+            </div>
+            <div class="col-md-2">
+                <label>Items per page:</label>
+            </div>
+            <div class="col-md-1">
+                <input type="number" class="form-control" value="10" min="10" step="10" ng-pattern="/^(0|[1-9][0-9]*)$/" ng-model="ItemsperPage">
+            </div>
+            <div class="col-md-1">
+                <a><img ng-click="exportToExcel()" src="../Images/excel.png" /></a>
+                
+            </div>
+        </div>
+</section>
+

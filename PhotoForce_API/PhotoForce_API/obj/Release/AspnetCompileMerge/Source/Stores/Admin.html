@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="cache-control" content="no-store" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="-1" />    
+    <meta http-equiv="pragma" content="no-cache" /> 
+
+    <title>Store Management</title>
+    <!--<link rel="icon" href="../images/icon.png" sizes="32x32" type="image/png">-->
+
+    <link rel="stylesheet" href="../Styles/alertify.core.css" />
+    <link rel="stylesheet" href="../Styles/alertify.default.css" id="toggleCSS" />
+    <script src="../JS/jquery.min.js"></script>
+
+
+    <script type="text/javascript" src="../Scripts/alertify.min.js"></script>
+    <script src="../Scripts/jquery-ui.js"></script>
+
+    <link href="../Styles/datetimepicker.min.css" rel="stylesheet" />
+
+    <link href="../Styles/bootstrap.min.css" rel="stylesheet">
+    <link href="../Styles/style.css" rel="stylesheet">
+    <link href="../Styles/responsive.css" rel="stylesheet">
+    <link href="../Styles/MyStyle.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../Styles/font-awesome.min.css">
+    <script src="../JS/choosen.js"></script>
+    <script src="../JS/chosen_jquery.js"></script>
+    <link href="../Styles/chosen.css" rel="stylesheet" />
+
+</head>
+<body style="background-color: #EBF5FB"  ng-app="AdminApp" ng-cloak disable-right-click>
+    <header class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-lg-4 logo"><img class="img-responsive" alt="" src="../images/logo.gif"></div>
+
+                <div class="col-xs-12 col-md-2 col-lg-2 user pull-right mob-no-pad">
+
+                    <div class="control-label" ng-controller="LogoutCtrl">
+                        Username    &nbsp;&nbsp;: <span style="color:orange"> {{username}}</span>
+                        <br />
+                        Name  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      : <span style="color:orange">{{Name}}</span><br />
+                        Designation : <span style="color:orange">{{Designation}}</span><br />
+                        <a href="" ng-click="LogOut()">Logout</a>
+   
+</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid welcome">
+        <div class="container">
+            <div class="row">
+                <h3><span style="font-family:Verdana"><i> DY.CSTE/C/SC STORE MANAGEMENT </i></span></h3>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: #EBF5FB; height: 800px auto;" class="container body-content" ng-controller="LinksController">
+        <div class="sidebarmenu"><span><i class="fa fa-bars" ng-click="SetResponsiveMenuActive()"></i>Menu </span> </div>
+        <aside class="col-xs-12 col-md-2 sidebar" ng-class="ResponsiveMenuActive == true ? 'sidebarblock' : 'sidebarnone'">
+            <nav>
+                <ul id="nav">
+                    <li ng-repeat="mainlink in AdminLinks | filter:{Parent:0}:true track by $index">
+                        <a ng-class="Parent == mainlink.Lid ? 'mainlinkactive':''" ng-click="LinkClick(mainlink.Lid)">{{mainlink.LinkName}}</a>
+                        <ul ng-class="Parent == mainlink.Lid ? 'displayblock' : 'displaynone' ">
+                            <li ng-repeat="sublink in AdminLinks | filter:{Parent:mainlink.Lid}:true | orderBy:sorting">
+                                <a ng-class="ChildId==sublink.Lid ? 'sublinkactive':''" href="" ng-click="PageRedirection(sublink.Lid,sublink.DispPage)">{{sublink.LinkName}}</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 right-content-section">
+            <div ng-view="" id="dataview"></div>
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 copy">Copyrights &copy; 2017 All Rights Reserved by Store Management </div>
+                <div class="col-md-6 developedby">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../Scripts/sidebar_menu.js"></script>
+
+    <script src="../Scripts_AJ/angular.js"></script>
+    <script src="../Scripts_AJ/ng-infinite-scroll.js"></script>
+    <script src="../Scripts_AJ/angular-route.js"></script>
+    <script src="../Scripts_AJ/dirPagination.js"></script>
+    <script src="../Scripts_AJ/angular-sanitize.js"></script>
+
+    <script src="../Scripts/ng-alertify.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+
+    <script src="../Scripts_AJ/ngAutocomplete.js"></script>
+    <link href="../Styles/AutoComplete.css" rel="stylesheet" />
+
+    <!--<script type="text/javascript" src="//cdn.rawgit.com/MrRio/jsPDF/master/dist/jspdf.min.js"></script>
+    <script type="text/javascript" src="//cdn.rawgit.com/niklasvh/html2canvas/0.5.0-alpha2/dist/html2canvas.min.js"></script>-->
+
+    <script src="../Scripts_AJ/aes.js"></script>
+    <script src="../App/JSFunctions.js"></script>
+    <script src="../App/EncriptInfo.js"></script>
+    <script src="../App/AdminApp.js?v=1" type="text/javascript"></script>
+    <script src="../Scripts_AJ/datetimepicker.js"></script>
+
+    <script type="text/javascript" language="javascript" charset="utf-8" src="../Scripts/nav.js"></script>
+    <script src="../Scripts_AJ/FileSaver.js"></script>
+</body>
+</html>

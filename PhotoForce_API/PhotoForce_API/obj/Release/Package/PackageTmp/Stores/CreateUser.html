@@ -1,0 +1,165 @@
+﻿<div class="col-xs-12 col-md-12" ng-controller="CreateUserCtrl">
+    <section class="right-content">
+        <div class="row top-row-strip">
+            <div class="col-md-10">
+                <ol class="breadcrumb">
+                    <li>User Manager</li>
+                    <!--<li class="active">Category Master</li>-->
+                    <li class="active">{{ShowUserProfile}}</li>
+                </ol>
+            </div>
+            <div class="col-md-2">
+                <a class="btn btn-primary" ng-click="ShowReport()">View User</a>
+            </div>
+        </div>
+        <div class="row col-md-12 form-group">
+            <form name="Form_CreateUserFilter" novalidate>
+
+                <div class="modal fade" ng-show="Model" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <!--<%-- <h4 class="modal-title" id="myModalLabel">Modal title</h4>--%>-->
+                            </div>
+                            <div class="modal-body">
+                                Are you Sure..You want to delete this record?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success theam-button btn-xs" ng-click="SDeleteConf();">Yes</button>
+                                <button type="button" class="btn btn-success theam-button btn-xs" ng-click="Cancel();">No</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row form-group" ng-class="{ 'has-error' : Form_CreateUserFilter.txtname.$invalid && !Form_CreateUserFilter.txtname.$pristine }">
+                        <div class="col-md-3 control-label">
+                            <label> Name</label>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" name="txtname" ng-disabled="distxtname" ng-model="txtname" class="form-control" ng-required="true" ng-focus="name.focus=true" ng-blur="name.focus=false">
+                            <div ng-show="Form_CreateUserFilter.txtname.$invalid && !Form_CreateUserFilter.txtname.$pristine && name.focus" class="validation_info">
+                                <ul class="ulvalid">
+                                    <li class="invalid" ng-show="Form_CreateUserFilter.txtname.$invalid">Name is required.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 control-label">
+                            <label>Mobile</label>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" name="txtmobile" ng-model="txtmobile" class="form-control" ng-pattern="/^[7-9][0-9]{9}$/" maxlength="10" ng-required="true" ng-focus="Mobile.focus=true" ng-blur="Mobile.focus=false">
+                            <div ng-show="Form_CreateUserFilter.txtmobile.$invalid && !Form_CreateUserFilter.txtmobile.$pristine && Mobile.focus" class="validation_info">
+                                <ul class="ulvalid">
+                                    <li class="invalid" ng-show="Form_CreateUserFilter.txtmobile.$invalid">Mobile is required.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row form-group" >
+                        <div class="col-md-3 control-label">
+                            <label>Designation</label>
+                        </div>
+                        <div class="col-md-3">
+                            <!--<select ng-model="Designation" name="Designation" class="form-control" ng-required="true" ng-options="a.ValueText as a.Text for a in Designations">
+                                <option value="" style="display:none">Select Designation</option>
+                            </select>-->
+
+                            <select ng-model="Designation" name="Designation" class="form-control" ng-required="true" ng-options="a.Text as a.Text for a in Designations">
+                                <option value="" style="display:none">Select Designation</option>
+                            </select>
+
+
+                        </div>
+                        <div class="col-md-3 control-label">
+                            <label>Email</label>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" name="txtemail" ng-model="txtemail" class="form-control" ng-pattern="/^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,4})$/" ng-maxlength="80" ng-required="true" ng-focus="Email.focus=true" ng-blur="Email.focus=false">
+                            <div ng-show=" Form_CreateUserFilter.txtemail.$invalid && !Form_CreateUserFilter.txtemail.$pristine && Email.focus" class="validation_info">
+                                <ul class="ulvalid">
+                                    <li class="invalid" ng-show="Form_CreateUserFilter.txtemail.$invalid">Email is required.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row form-group" ng-class="{ 'has-error' : Form_CreateUserFilter.txtdoorno.$invalid && !Form_CreateUserFilter.txtdoorno.$pristine }">
+                        <div class="col-md-3 control-label">
+                            <label>Address</label>
+                        </div>
+                        <div class="col-md-9 control-label">
+                            <textarea name="txtdoorno" ng-model="txtdoorno" class="form-control" rows="3" ng-required="true" ng-focus="doorno.focus=true" ng-blur="doorno.focus=false"></textarea>
+                            <div ng-show="Form_CreateUserFilter.txtdoorno.$invalid && !Form_CreateUserFilter.txtdoorno.$pristine && doorno.focus" class="validation_info">
+                                <ul class="ulvalid">
+                                    <li class="invalid" ng-show="Form_CreateUserFilter.txtdoorno.$invalid">Address is required.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row form-group" ng-class="{ 'has-error' : Form_CreateUserFilter.txtemail.$invalid && !Form_CreateUserFilter.txtemail.$pristine }">
+
+                        <div class="col-md-3 control-label">
+                            <label>Admin Username</label>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" name="txtusername" ng-readonly="truefalse" ng-model="txtusername" class="form-control" ng-required="true" ng-focus="username.focus=true" ng-blur="username.focus=false">
+                            <div ng-show="Form_CreateUserFilter.txtusername.$invalid && !Form_CreateUserFilter.txtusername.$pristine && username.focus" class="validation_info">
+                                <ul class="ulvalid">
+                                    <li class="invalid" ng-show="Form_CreateUserFilter.txtusername.$invalid">Admin UserName is required.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row form-group" ng-show="HidePwd" ng-class="{ 'has-error' : Form_CreateUserFilter.txtpassword.$invalid && !Form_CreateUserFilter.txtpassword.$pristine }">
+                        <div class="col-md-3 control-label">
+                            <label>Password</label>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="password" name="txtpassword" ng-model="txtpassword" class="form-control" pattern="^(?=.*\d)(?=.*[a-zA-Z])(?!.*\s).{6,12}$" ng-change="checkConfirmPwd()" ng-required="true" ng-focus="pwd.focus=true" ng-blur="pwd.focus=false">
+                            <ul id="strength" check-strength="txtpassword"></ul>
+                            <div ng-show="Form_CreateUserFilter.txtpassword.$invalid && !Form_CreateUserFilter.txtpassword.$pristine && pwd.focus" class="validation_info">
+
+                                <ul class="ulvalid">
+                                    <li class="invalid" ng-show="Form_CreateUserFilter.txtpassword.$invalid">Password contains between 6 and 12 characters, and contains at least one number.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 control-label">
+                            <label>Confirm Password</label>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="password" name="txtcnfpassword" ng-model="txtcnfpassword" class="form-control" pattern="^(?=.*\d)(?=.*[a-zA-Z])(?!.*\s).{6,12}$" ng-change="checkConfirmPwd()" ng-required="true" ng-focus="cpwd.focus=true" ng-blur="cpwd.focus=false">
+                            <div ng-show="(Form_CreateUserFilter.txtcnfpassword.$invalid||ConfirmPassword) && !Form_CreateUserFilter.txtcnfpassword.$pristine && cpwd.focus" class="validation_info">
+                                <ul class="ulvalid">
+                                    <li class="invalid" ng-show="Form_CreateUserFilter.txtcnfpassword.$invalid">Confirm Password contains between 6 and 12 characters, and contains at least one number.</li>
+                                    <li class="invalid" ng-show="ConfirmPassword">Confirm Passwords don't match..</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row form-group" ng-show="SHDropDown">
+                        <div class="col-md-3 control-label">
+                            <label>Status</label>
+                        </div>
+                        <div class="col-md-3">
+                            <select ng-options="s.Value as s.Text for s in Status" ng-model="Stat" class="form-control" id="ddlStatus" name="StatusVal" ng-required="true"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-4 col-md-4">
+                        <button type="button" id="btnback" ng-show="ShowHideCreate" ng-click="CreateUserPro();" ng-disabled="Form_CreateUserFilter.$invalid" class="btn btn-primary btn-sm">Create</button>
+                        <button type="button" id="btnback" ng-show="ShowHideUpdate" ng-click="UpdateUserPro();" ng-disabled="Form_CreateUserFilter.$invalid" class="btn btn-primary btn-sm">Update</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</div>

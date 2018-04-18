@@ -1,0 +1,116 @@
+﻿<div class="col-xs-12 col-md-12" ng-controller="CreateInwardTypeCtrl">
+    <section class="right-content">
+        <div class="row top-row-strip">
+            <div class="col-md-10">
+                <ol class="breadcrumb">
+                    <li>Masters</li>
+                    <!--<li class="active">Category Master</li>-->
+                    <li class="active">{{ShowInwardType}}</li>
+                </ol>
+            </div>
+            <div class="col-md-2">
+                <a class="btn btn-primary" ng-click="ShowReport()">View Types</a>
+            </div>
+        </div>
+        <div class="col-md-offset-2 col-md-6">
+            <form name="Form_CreateInwardTypeFilter" novalidate>
+
+                <div class="modal fade" ng-show="Model" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <!--<%-- <h4 class="modal-title" id="myModalLabel">Modal title</h4>--%>-->
+                            </div>
+                            <div class="modal-body">
+                                Are you Sure..You want to delete this record?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success theam-button btn-xs" ng-click="SDeleteConf();">Yes</button>
+                                <button type="button" class="btn btn-success theam-button btn-xs" ng-click="Cancel();">No</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+
+                    <div class="row form-group" ng-class="{ 'has-error' : Form_CreateInwardTypeFilter.txtstate.$invalid && !Form_CreateInwardTypeFilter.txtType.$pristine }">
+                        <div class="col-md-4 control-label">
+                            <label>Mode of Transaction</label>
+                        </div>
+                        <div class="col-md-6">
+                            <select ng-model="Type" ng-disabled="disType" name="Type" class="form-control" ng-change="CheckType()" ng-required="true" ng-options="a.Text as a.Text for a in InwardTypeTypes">
+                                <option value="" style="display:none">Select Mode of Transaction</option>
+                            </select>
+                            <div ng-show="Form_CreateInwardTypeFilter.txtType.$invalid && !Form_CreateInwardTypeFilter.txtType.$pristine && State.focus" class="validation_info">
+                                <ul class="ulvalid">
+                                    <li class="invalid" ng-show="Form_CreateInwardTypeFilter.txtType.$invalid">Mode of Transaction is required.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row form-group" ng-class="{ 'has-error' : Form_CreateInwardTypeFilter.txtname.$invalid && !Form_CreateInwardTypeFilter.txtname.$pristine }">
+                        <div class="col-md-4 control-label">
+                            <label>Name</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" ng-disabled="disName" name="txtname" ng-model="txtname" class="form-control" ng-required="true" ng-focus="name.focus=true" ng-blur="name.focus=false">
+                            <div ng-show="Form_CreateInwardTypeFilter.txtname.$invalid && !Form_CreateInwardTypeFilter.txtname.$pristine && name.focus" class="validation_info">
+                                <ul class="ulvalid">
+                                    <li class="invalid" ng-show="Form_CreateInwardTypeFilter.txtname.$invalid">Name is required.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row form-group" ng-show="showhideDesignation" ng-class="{ 'has-error' : Form_CreateInwardTypeFilter.Designation.$invalid && !Form_CreateInwardTypeFilter.Designation.$pristine }">
+                        <div class="col-md-4 control-label">
+                            <label>Designation</label>
+                        </div>
+                        <div class="col-md-6">
+                            <select ng-model="Designation" name="Designation" class="form-control" ng-required="Req_Desig" ng-options="a.Text as a.Text for a in Designations">
+                                <option value="" style="display:none">Select Designation</option>
+                            </select>
+                           
+                        </div>
+                    </div>
+
+                    <div class="row form-group" ng-class="{ 'has-error' : Form_CreateInwardTypeFilter.txtAddress.$invalid && !Form_CreateInwardTypeFilter.txtAddress.$pristine }">
+                        <div class="col-md-4 control-label">
+                            <label>Address</label>
+                        </div>
+                        <div class="col-md-6 control-label">
+                            <textarea name="txtAddress" ng-model="txtAddress" class="form-control" rows="5"  ></textarea>
+                            
+                        </div>
+                    </div>
+                    <div class="row form-group" ng-class="{ 'has-error' : Form_CreateInwardTypeFilter.txtmobile.$invalid && !Form_CreateInwardTypeFilter.txtmobile.$pristine }">
+                        <div class="col-md-4 control-label">
+                            <label>Mobile</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="txtmobile" ng-model="txtmobile" class="form-control" ng-pattern="/^[7-9][0-9]{9}$/" maxlength="10" >
+                            
+                        </div>
+                    </div>
+                    <div class="row form-group" ng-show="SHDropDown">
+                        <div class="col-md-4 control-label">
+                            <label>Status</label>
+                        </div>
+                        <div class="col-md-6">
+                            <select ng-options="s.Value as s.Text for s in Status" ng-model="Stat" class="form-control" id="ddlStatus" name="StatusVal" ng-required="true"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-4 col-md-4">
+                        <button type="button" id="btnback" ng-show="ShowHideCreate" ng-click="CreateInwardTypePro();" ng-disabled="Form_CreateInwardTypeFilter.$invalid" class="btn btn-primary btn-sm">Create</button>
+                        <button type="button" id="btnback" ng-show="ShowHideUpdate" ng-click="UpdateInwardTypePro();" ng-disabled="Form_CreateInwardTypeFilter.$invalid" class="btn btn-primary btn-sm">Update</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</div>

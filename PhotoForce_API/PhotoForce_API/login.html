@@ -1,0 +1,55 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <!--<link rel="icon" href="images/icon.png" sizes="32x32" type="image/png">-->
+    <link href="Styles/alertify.core.css" rel="stylesheet" />
+    <link href="Styles/alertify.default.css" rel="stylesheet" />
+    <script src="Scripts/alertify.js"></script>
+    <script src="Scripts/alertify.min.js"></script>
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <link href="Styles/bootstrap.min.css" rel="stylesheet">    
+    <link href="Styles/responsive.css" rel="stylesheet">
+    <link href="Styles/login-style.css" rel="stylesheet">
+    <script src="Scripts_AJ/angular.js"></script>
+
+    <script src="App/EncriptInfo.js"></script>
+    <script src="App/LoginApp.js"></script>    
+</head>
+
+<body   ng-app="adminloginApp" ng-controller="AdminLoginCtrl">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10 login-logo">
+                <!--<img src="Images/logo.gif" />-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10 login">
+                <h1>Site Management Login</h1>
+                <form name="Form_Login" ng-submit="Login()" novalidate>
+                    <div class="form-group" ng-class="{ 'has-error' : Form_Login.username.$invalid && !Form_Login.username.$pristine }">
+                        <input type="text" class="form-control" name="username" ng-model="login.username" autocomplete="off" autofocus ng-required="true" placeholder="Username" ng-focus="userid.focus=true" ng-blur="userid.focus=false">
+
+                    </div>
+                    <div class="form-group" ng-class="{ 'has-error' : Form_Login.pwd.$invalid && !Form_Login.pwd.$pristine }">
+                        <input type="password" class="form-control" name="pwd" ng-model="login.password" autocomplete="off" ng-required="true" placeholder="Password" ng-focus="pwd.focus=true" ng-blur="pwd.focus=false">
+
+                    </div>
+                    <div class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-5 col-sm-7 col-xs-offset-4 col-xs-8">
+                        <button type="submit" id="btnlogin" class="btn btn-success" ng-disabled="Form_Login.$invalid || loader">Login</button>
+                    </div>
+                    <div class="col-md-1">
+                        <img ng-show="loader" src="Images/loading.gif" class="loading" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts_AJ/aes.js"></script>
+</body>
+
+
+</html>

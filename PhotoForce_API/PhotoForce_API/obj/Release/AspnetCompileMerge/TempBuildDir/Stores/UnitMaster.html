@@ -1,0 +1,76 @@
+﻿<div class="col-xs-12 col-md-12" ng-controller="CreateUnitCtrl">
+    <section class="right-content">
+        <div class="row top-row-strip">
+            <div class="col-md-10">
+                <ol class="breadcrumb">
+                    <li>Masters</li>
+                    <!--<li class="active">Category Master</li>-->
+                    <li class="active">{{ShowUnit}}</li>
+                </ol>
+            </div>
+            <div class="col-md-2">
+                <a class="btn btn-primary" ng-click="ShowReport()">View Units</a>
+            </div>
+        </div>
+        <div class="col-md-offset-2 col-md-6">
+            <form name="Form_CreateUnitFilter" novalidate>
+
+                <div class="modal fade" ng-show="Model" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <!--<%-- <h4 class="modal-title" id="myModalLabel">Modal title</h4>--%>-->
+                            </div>
+                            <div class="modal-body">
+                                Are you Sure..You want to delete this record?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success theam-button btn-xs" ng-click="SDeleteConf();">Yes</button>
+                                <button type="button" class="btn btn-success theam-button btn-xs" ng-click="Cancel();">No</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row form-group" ng-class="{ 'has-error' : Form_CreateUnitFilter.txtUnitName.$invalid && !Form_CreateUnitFilter.txtUnitName.$pristine }">
+                        <div class="col-md-4 control-label">
+                            <label>Unit Name</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" ng-disabled="unitnamedis" name="txtUnitName" ng-model="txtUnitName" class="form-control" ng-required="true" ng-focus="name.focus=true" ng-blur="name.focus=false">
+                            <div ng-show="Form_CreateUnitFilter.txtUnitName.$invalid && !Form_CreateUnitFilter.txtUnitName.$pristine && name.focus" class="validation_info">
+                                <ul class="ulvalid">
+                                    <li class="invalid" ng-show="Form_CreateUnitFilter.txtUnitName.$invalid">Unit Name is required.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row form-group" >
+                        <div class="col-md-4 control-label">
+                            <label>Unit Descr</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="txtUnitDescr" ng-model="txtUnitDescr" class="form-control" >
+                            
+                        </div>
+                    </div>
+                        <div class="row form-group" ng-show="SHDropDown">
+                        <div class="col-md-4 control-label">
+                            <label>Status</label>
+                        </div>
+                        <div class="col-md-6">
+                            <select ng-options="s.Value as s.Text for s in Status" ng-model="Stat" class="form-control" id="ddlStatus" name="StatusVal" ng-required="true"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-4 col-md-4">
+                        <button type="button" id="btnback" ng-show="ShowHideCreate" ng-click="CreateUnitPro();" ng-disabled="Form_CreateUnitFilter.$invalid" class="btn btn-primary btn-sm">Create</button>
+                        <button type="button" id="btnback" ng-show="ShowHideUpdate" ng-click="UpdateUnitPro();" ng-disabled="Form_CreateUnitFilter.$invalid" class="btn btn-primary btn-sm">Update</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</div>

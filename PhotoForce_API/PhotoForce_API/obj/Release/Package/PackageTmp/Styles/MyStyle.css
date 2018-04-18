@@ -1,0 +1,32 @@
+﻿.input-autocomplete {
+    background-image: url(../Images/dropdown.gif);
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 10px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 10px;
+}
+.input-calendar {
+    background-image: url(../Images/Calander.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    width: 20px;
+}
+.fontred{
+    color:red;
+}
+.developedby{
+    font-size: 13px;
+    line-height: 40px;
+    color: #fff;
+    text-align: right;    
+}
+.developedby img{
+    height:35px;
+}

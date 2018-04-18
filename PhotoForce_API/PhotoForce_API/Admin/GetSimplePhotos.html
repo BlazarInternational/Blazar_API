@@ -1,0 +1,125 @@
+﻿
+<section class="right-content" ng-controller="SimplePhotos_RptCtrl">
+    <div class="row top-row-strip">
+        <div class="col-md-10">
+            <ol class="breadcrumb">
+                <li>Reports</li>
+                <li class="active">{{Header}}</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-md-8" ng-class="{ 'has-error' : MenuForm.txtFromdate.$invalid && !MenuForm.txtFromdate.$pristine && MenuForm.txtTodate.$invalid && !MenuForm.txtTodate.$pristine }">
+            <div class="col-md-1"><div class="radio"><label class="control-label">From </label></div></div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" uib-datepicker-popup="dd/MM/yyyy" ng-model="txtFromdate" is-open="fromdatests.opened" ng-click="fromtoRequired && openfromdatests($event)"
+                       min-date="minDate" max-date="frommaxDate" datepicker-options="dateOptions" placeholder="Select Fromdate"
+                       show-button-bar="false" show-weeks="false" formatyear="yyyy" ng-readonly="true" />
+                <span class="input-calendar" ng-click="fromtoRequired && openfromdatests($event)"></span>
+
+            </div>
+            <div class="col-md-1"><div class="radio"><label class="control-label">To </label></div></div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" uib-datepicker-popup="dd/MM/yyyy" ng-model="txtTodate" is-open="todatests.opened" ng-click="fromtoRequired && opentodatests($event)"
+                       min-date="minDate1" max-date="maxDate" datepicker-options="dateOptions" placeholder="Select Todate"
+                       show-button-bar="false" show-weeks="false" formatyear="yyyy" ng-readonly="true" />
+                <span class="input-calendar" ng-click="fromtoRequired && opentodatests($event)"></span>
+            </div>
+            <div class="col-md-2">
+                <button type="button" id="btnsubmit" ng-click="reqReport()" class="btn btn-primary btn-sm">Submit</button>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="col-md-8">
+                <label>Items per page:</label>
+            </div>
+            <div class="col-md-4">
+                <input type="number" class="form-control" value="10" min="10" step="10" ng-pattern="/^(0|[1-9][0-9]*)$/" ng-model="ItemsperPage">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 table-responsive">
+            <table class="table table-bordered table-striped ">
+                <tr>
+                    <th ng-click="sortKey ='$id*1'; reverse=!reverse" ng-init="sortKey = '$id*1';reverse = false">
+                        S.No
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != '$id*1','glyphicon-sort-by-order-alt':sortKey == '$id*1' && reverse,'glyphicon-sort-by-order':sortKey == '$id*1' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='order_id'">
+                        Order ID
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'order_id','glyphicon-sort-by-alphabet-alt':sortKey == 'order_id' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'order_id' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='image_id'">
+                        Imange ID
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'image_id','glyphicon-sort-by-alphabet-alt':sortKey == 'image_id' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'image_id' && !reverse}"></span>
+                    </th>
+
+                    <th ng-click="reverse=!reverse ; sortKey='quantity' ">
+                        Qty
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'quantity','glyphicon-sort-by-alphabet-alt':sortKey == 'quantity' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'quantity' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='billing_code' ">
+                        Billing Code
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'billing_code','glyphicon-sort-by-alphabet-alt':sortKey == 'billing_code' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'billing_code' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='price' ">
+                        price
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'price','glyphicon-sort-by-order-alt':sortKey == 'price' && reverse,'glyphicon-sort-by-order':sortKey == 'price' && !reverse}"></span>
+                    </th>
+
+                </tr>
+                <tr>
+                    <th>
+                        <a ng-click="search=''" class="pointer-sort">
+                            <i class="fa fa-refresh fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </th>
+                    <th>
+                        <input type="text" ng-model="search.Date" placeholder="Search.." />
+                    </th>
+                    <th>
+                        <input type="text" ng-model="search.image_id" placeholder="Search.." />
+                    </th>
+
+                    <th>
+                        <input type="text" class="search-txt" ng-model="search.quantity" placeholder="Search.." />
+                    </th>
+                    <th>
+                        <input type="text" ng-model="search.billing_code" placeholder="Search.." />
+                    </th>
+                    <th>
+                        <input type="text" ng-model="search.price" placeholder="Search.." />
+                    </th>
+
+                </tr>
+                <tr dir-paginate="Rpt in ReportList | filter:search | orderBy:sortKey:reverse | itemsPerPage:ItemsperPage">
+                    <td class="label-center">{{$index+1}}</td>
+                    <td class="label-center">
+                        {{Rpt.order_id}}
+                    </td>
+                    <td class="label-left">{{Rpt.image_id}}</td>
+                    <td class="label-left">{{Rpt.quantity}}</td>
+                    <td class="label-center">{{Rpt.billing_code}}</td>
+                    <td class="label-left">{{Rpt.price}}</td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-11">
+            <dir-pagination-controls max-size="15" direction-links="true" boundary-links="true">
+            </dir-pagination-controls>
+        </div>
+
+        <div class="col-md-1">
+            <a><img ng-click="exportToExcel()" src="../Images/excel.png" /></a>
+        </div>
+    </div>
+    <div class="row">
+        <button type="button" id="btnImport" ng-click="ImportReport()" class="btn btn-primary btn-sm">Import To Azure Database</button>
+    </div>
+</section>
+

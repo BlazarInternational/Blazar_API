@@ -1,0 +1,5 @@
+bin\Debug\SQLHelper.dll
+bin\Debug\SQLHelper.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SQLHelper.dll
+obj\Debug\SQLHelper.pdb

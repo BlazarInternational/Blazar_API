@@ -1,0 +1,116 @@
+﻿<div class="col-xs-12 col-md-12" ng-controller="CreateItemCtrl">
+    <section class="right-content">
+        <div class="row top-row-strip">
+            <div class="col-md-10">
+                <ol class="breadcrumb">
+                    <li>Masters</li>
+                    <!--<li class="active">Category Master</li>-->
+                    <li class="active">{{ShowItem}}</li>
+                </ol>
+            </div>
+            <div class="col-md-2">
+                <a class="btn btn-primary" ng-click="ShowReport()">View Items</a>
+            </div>
+        </div>
+        <div class="col-md-offset-2 col-md-6">
+            <form name="Form_CreateItemFilter" novalidate>
+
+                <div class="modal fade" ng-show="Model" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <!--<%-- <h4 class="modal-title" id="myModalLabel">Modal title</h4>--%>-->
+                            </div>
+                            <div class="modal-body">
+                                Are you Sure..You want to delete this record?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success theam-button btn-xs" ng-click="SDeleteConf();">Yes</button>
+                                <button type="button" class="btn btn-success theam-button btn-xs" ng-click="Cancel();">No</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row form-group" ng-class="{ 'has-error' : Form_CreateItemFilter.txtItemType.$invalid && !Form_CreateItemFilter.txtItemType.$pristine }">
+                        <div class="col-md-4 control-label">
+                            <label>Item Type</label>
+                        </div>
+                        <div class="col-md-6">
+                            <select ng-model="Item_Type" ng-disabled="ItemTypedis" name="Item_Type" class="form-control" ng-required="true" ng-options="a.Text as a.Text for a in ItemTypes">
+                                <option value="" style="display:none">Select Item Group</option>
+                            </select>
+                            <div ng-show="Form_CreateItemFilter.txtItemType.$invalid && !Form_CreateItemFilter.txtItemType.$pristine && ItemType.focus" class="validation_info">
+                                <ul class="ulvalid">
+                                    <li class="invalid" ng-show="Form_CreateItemFilter.txtItemType.$invalid">Item Group is required.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row form-group" ng-class="{ 'has-error' : Form_CreateItemFilter.txtItemName.$invalid && !Form_CreateItemFilter.txtItemName.$pristine }">
+                        <div class="col-md-4 control-label">
+                            <label>Item Name</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="txtItemName" ng-disabled="ItemNamedis" ng-model="txtItemName" class="form-control" ng-required="true" ng-focus="name.focus=true" ng-blur="name.focus=false">
+                            <div ng-show="Form_CreateItemFilter.txtItemName.$invalid && !Form_CreateItemFilter.txtItemName.$pristine && name.focus" class="validation_info">
+                                <ul class="ulvalid">
+                                    <li class="invalid" ng-show="Form_CreateItemFilter.txtItemName.$invalid">Item Type  is required.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-4 control-label">
+                            <label>Item Descr</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="txtItemDescr" ng-model="txtItemDescr" class="form-control" ng-focus="city.focus=true" ng-blur="city.focus=false">
+
+                        </div>
+                    </div>
+                    <!--<div class="row form-group">
+                        <div class="col-md-4 control-label">
+                            <label>Has Sl. No</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input id="chkhasSLNo" type="checkbox" ng-model="hasSLNo" />
+                        </div>
+                    </div>-->
+                    <div class="row form-group" ng-class="{ 'has-error' : Form_CreateItemFilter.Unit.$invalid && !Form_CreateItemFilter.Unit.$pristine }">
+                        <div class="col-md-4 control-label">
+                            <label>Unit</label>
+                        </div>
+                        <div class="col-md-6">
+                            <select ng-options="a.Text as a.Text for a in Units" ng-disabled="Unitdis" ng-model="Unit" name="Unit" class="form-control" ng-required="true">
+                                <option value="" style=" display:none">
+                                    Select Unit
+                                </option>
+                            </select>
+                            <div ng-show="Form_CreateItemFilter.Unit.$invalid && !Form_CreateItemFilter.Unit.$pristine && city.focus" class="validation_info">
+                                <ul class="ulvalid">
+                                    <li class="invalid" ng-show="Form_CreateItemFilter.Unit.$invalid">Unit is required.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row form-group" ng-show="SHDropDown">
+                        <div class="col-md-4 control-label">
+                            <label>Status</label>
+                        </div>
+                        <div class="col-md-6">
+                            <select ng-options="s.Value as s.Text for s in Status" ng-model="Stat" class="form-control" id="ddlStatus" name="StatusVal" ng-required="true"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-4 col-md-4">
+                        <button type="button" id="btnback" ng-show="ShowHideCreate" ng-click="CreateItemPro();" ng-disabled="Form_CreateItemFilter.$invalid" class="btn btn-primary btn-sm">Create</button>
+                        <button type="button" id="btnback" ng-show="ShowHideUpdate" ng-click="UpdateItemPro();" ng-disabled="Form_CreateItemFilter.$invalid" class="btn btn-primary btn-sm">Update</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</div>

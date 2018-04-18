@@ -1,0 +1,187 @@
+
+
+@media (max-width: 1023px) {
+    .mob-no-pad {
+        padding: 0;
+        
+    }
+
+    .body-content {
+        width: 100%;
+        
+    }
+
+    .sidebarmenu {
+        display: block;
+        background: #01a3e1;
+        color: #fff;
+        cursor: pointer;
+        padding: 5px;
+        margin : 0px 10px;
+    }
+
+    .sidebar {
+        width: 94%;
+        border-radius: 0;
+        position: absolute !important;
+        z-index: 999 !important;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .sidebarblock {
+        display: block;
+    }
+
+    .sidebarnone {
+        display: block;
+    }
+
+    .right-content {
+        border-radius: 0 0 6px 6px;
+    }
+
+    .sidebarmenu i {
+        font-size: 17px;
+        font-weight: bold;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (min-width:120px) and (max-width:991px) {
+    .right-content-section {
+        padding: 0;
+        width: 100%;
+    }
+
+    .body-content {
+        border: medium none;
+        padding: 0;
+
+    }
+
+    .breadcrumb > li + li::before {
+        padding: 0 0px;
+    }
+
+    .breadcrumb > li {
+        font-size: 10px;
+    }
+
+    .table {
+        display: block;
+        overflow-x: scroll;
+    }
+
+    footer .copy, footer .developedby {
+        color: #fff;
+        font-size: 10px;
+        line-height: 20px;
+        padding: 0;
+        text-align: center !important;
+    }
+
+    .top-heading {
+        display: none;
+    }
+
+    footer .copy, footer .developedby {
+        color: #fff;
+        font-size: 10px;
+        line-height: 20px;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .sidebarblock {
+        display: block;
+    }
+
+    .sidebarnone {
+        display: none;
+    }
+
+    .sidebar #nav > li > a {
+        padding: 5px 5px;
+    }
+
+    .sidebar #nav > li > a:hover, .sidebar #nav > li > a.open {
+        padding-left: 30px;
+    }
+
+    .mainlinkactive {
+        padding-left: 30px !important;
+    }
+
+    .sidebar #nav li ul li a {
+        padding-bottom: 3px;
+        padding-left: 30px;
+        padding-top: 3px;
+    }
+
+    .sidebar #nav li ul li a:hover {
+        padding-left: 30px;
+    }
+
+    footer .copy, footer .developedby {
+        color: #fff;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media (min-width:992px) and (max-width:1023px) {
+}
+
+@media (min-width:1024px) and (max-width:1279px) {
+}
+
+@media (min-width:120px) and (max-width:480px) {
+    #dataview {
+        padding: 8px;
+    }
+
+    .label-right {
+        text-align: left;
+    }
+
+    .label-left {
+        text-align: left;
+    }
+
+    .label-center {
+        text-align: left;
+    }
+
+    .welcome h3 {
+        font-size: 15px;
+    }
+
+    .user img {
+        width: 30px;
+    }
+
+    .sidebarblock {
+        display: block;
+    }
+
+    .sidebarnone {
+        display: none;
+    }
+
+    a {
+        cursor: pointer;
+    }
+
+    .right-content {
+        padding: 15px 5px 0;
+    }
+
+    .breadcrumb > li {
+        font-size: 12px;
+    }
+}

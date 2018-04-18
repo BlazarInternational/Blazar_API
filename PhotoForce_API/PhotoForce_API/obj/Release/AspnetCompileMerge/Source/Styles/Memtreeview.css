@@ -1,0 +1,301 @@
+﻿.DivTooltip {
+    background-color: #D2E6C1;
+    position: absolute;
+    visibility: hidden;
+    width: 450px;
+    font-size: 10px;
+}
+
+.Girdtooltip {
+    width: 100%;
+    border-width: 0;
+    border: solid 1px #dddddd;
+    width: 30%;
+    border-radius: 5px;
+    left: 75px !important;
+    top: 100px !important;
+    background: #fbfbfb;
+}
+
+.BorderColor {
+    border: solid 1px #D2E6C1;
+}
+
+.tooltipdisplay {
+    display: block;
+}
+
+.tooltipnone {
+    display: none;
+}
+
+.label-left {
+    text-align: left !important;
+}
+
+.label-center {
+    text-align: center !important;
+}
+
+.label-right {
+    text-align: right !important;
+}
+
+.tree {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    border: 0px solid red;
+    width: auto;
+    overflow-x: scroll;
+    width: 100%;
+    text-align: center;
+    min-height: 190px;
+}
+
+    .tree hr {
+        padding-bottom: 0px;
+        margin-bottom: -1px;
+        border-bottom: 5px solid #5a4f4f;
+        margin-left:63px;
+    }
+
+    .tree ul {
+        padding-top: 0px;
+        position: relative;
+        white-space: nowrap;
+        text-align: left;
+    }
+
+    .tree li {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 -2px;
+        text-align: center;
+        list-style-type: none;
+        position: relative;
+        padding: 0px 20px 20px 20px;
+        border: 0px solid red;
+        transition: all .5s;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+    }
+        /*We will use ::before and ::after to draw the connectors*/
+        .tree li::before, .tree li::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 50%;
+            width: 50%;
+        }
+
+        .tree li::after {
+            right: auto;
+            left: 50%;
+        }
+
+    .tree down {
+        content: 'v';
+    }
+    /*We need to remove left-right connectors from elements without any siblings*/
+    .tree li:only-child::after, .tree li:only-child::before {
+        display: none;
+    }
+    /*Remove space from the top of single children*/
+    .tree li:only-child {
+        padding-top: 0;
+    }
+    /*Remove left connector from first child and
+right connector from last child*/
+    .tree li:first-child::before, .tree li:last-child::after {
+        border: 0 none;
+    }
+    /*Adding back the vertical connector to the last nodes*/
+    .tree li:last-child::before {
+        border-right: 2px solid #3498DB;
+    }
+
+
+    /*Time to add downward connectors from parents*/
+
+    .tree ul ul::before {
+        top: 0;
+        left: 50%;
+        border-left: 1px solid #94a0b4;
+        width: 0;
+        height: 20px;
+    }
+
+    .tree li a {
+        border: 1px solid #3498DB;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: #666;
+        font-family: arial, verdana, tahoma;
+        font-size: 11px;
+        display: inline-block;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 50px;
+    }
+        /*Time for some hover effects*/
+        /*We will apply the hover effect the the lineage of the element also*/
+        .tree li a:hover, .tree li a:hover + ul li a {
+            background: #f6f6f6;
+            color: #000;
+            border: 1px solid #94a0b4;
+        }
+            /*Connector styles on hover*/
+            .tree li a:hover + ul li::after, .tree li a:hover + ul li::before, .tree li a:hover + ul::before {
+                border-color: #94a0b4;
+            }
+
+.wrapper {
+    padding: 10px;
+    padding-bottom: 0px !important;
+    border-radius: 5px;
+    left: 500px;
+    position: fixed;
+    top: 350px;
+    z-index: 99999;
+    background: #3498DB !important;
+}
+
+.wrapper-l {
+    padding: 10px;
+    padding-bottom: 0px !important;
+    border-radius: 5px;
+    left: 250px;
+    position: fixed;
+    top: 240px;
+    z-index: 99999;
+    background: #3498DB !important;
+}
+
+.wrapper-r {
+    padding: 10px;
+    padding-bottom: 0px !important;
+    border-radius: 5px;
+    right: 20px;
+    position: fixed;
+    top: 240px;
+    z-index: 99999;
+    background: #3498DB !important;
+}
+
+.treeviewtooltip {
+    background: #f8f6f6 !important;
+}
+
+#masterfigure {
+    text-align: left;
+    position: relative;
+}
+
+#masterfigcaption {
+    display: none;
+    position: absolute;
+    left: 20%;
+    bottom: 5px;
+    right: 0;
+    background-color: rgba(0,0,0,.15);
+}
+
+#masterfigure:hover img {
+    opacity: .7;
+}
+
+#masterfigure:hover #masterfigcaption {
+    display: block;
+}
+
+#figure {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+#figcaption {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    right: 0;
+    background-color: rgba(0,0,0,.15);
+}
+
+#figure:hover img {
+    opacity: .7;
+}
+
+#figure:hover #figcaption {
+    display: block;
+}
+
+@media (min-width:120px) and (max-width:320px) {
+    .wrapper {
+        padding: 10px;
+        left: 10px;
+        background: #f6f6f6 !important;
+        width: 290px;
+        overflow-x: scroll;
+    }
+
+    .treeviewtooltip table th, .treeviewtooltip table td {
+        font-size: 10px;
+    }
+}
+
+@media (min-width:321px) and (max-width:480px) {
+    .wrapper {
+        padding: 10px;
+        left: 10px;
+        top: 100px;
+        width: 330px;
+        overflow-x: scroll;
+    }
+
+    .treeviewtooltip table th, .treeviewtooltip table td {
+        font-size: 10px;
+    }
+}
+
+@media (min-width:481px) and (max-width:640px) {
+    .wrapper {
+        padding: 10px;
+        left: 50px;
+        top: 50px;
+    }
+
+    .treeviewtooltip table th, .treeviewtooltip table td {
+        font-size: 10px;
+    }
+}
+
+@media (min-width:641px) and (max-width:768px) {
+    .wrapper {
+        padding: 10px;
+        left: 150px;
+        top: 150px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1023px) {
+    .wrapper {
+        padding: 10px;
+        left: 150px;
+        top: 150px;
+    }
+}
+
+.tree-hr {
+    border: 1px solid #666;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.tree-placement-txt {
+    margin-top: 23px;
+}

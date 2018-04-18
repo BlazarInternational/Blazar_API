@@ -1,0 +1,114 @@
+﻿
+<section class="right-content" ng-controller="BalanceReportCtrl">
+    <div class="row top-row-strip">
+        <div class="col-md-12">
+            <ol class="breadcrumb">
+                <li>Reports</li>
+                <li class="active">{{RptHeader}}</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-md-1">
+            <!--<label>Search:</label>-->
+        </div>
+        <div class="col-md-3">
+            <!--<input type="text" ng-model="searchprofile" class="form-control" placeholder="Search" ng-blur="FilterExistingData()">-->
+        </div>
+        <div class="col-md-offset-4 col-md-2">
+            <label>Items per page:</label>
+        </div>
+        <div class="col-md-2">
+            <input type="number" class="form-control" value="10" min="10" step="10" ng-pattern="/^(0|[1-9][0-9]*)$/" ng-model="ItemsperPage">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 table-responsive">
+            <table class="table table-bordered table-striped ">
+                <tr>
+                    <th ng-click="sortKey ='$id*1'; reverse=!reverse" ng-init="sortKey = '$id*1';reverse = false">
+                        S.No
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != '$id*1','glyphicon-sort-by-order-alt':sortKey == '$id*1' && reverse,'glyphicon-sort-by-order':sortKey == '$id*1' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='ItemType'">
+                        Item Type
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'ItemType','glyphicon-sort-by-alphabet-alt':sortKey == 'ItemType' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'ItemType' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='ItemName'">
+                        Item Name
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'Type','glyphicon-sort-by-alphabet-alt':sortKey == 'ItemName' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'ItemName' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='IsClasic'">
+                        IsClasic
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'IsClasic','glyphicon-sort-by-alphabet-alt':sortKey == 'IsClasic' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'IsClasic' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='Unit'">
+                        Unit
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'Unit','glyphicon-sort-by-alphabet-alt':sortKey == 'Unit' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'Unit' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='Inward' ">
+                        Inward
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'Inward','glyphicon-sort-by-alphabet-alt':sortKey == 'Inward' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'Inward' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='OutWard' ">
+                        OutWard
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'OutWard','glyphicon-sort-by-alphabet-alt':sortKey == 'OutWard' && reverse,'glyphicon-sort-by-alphabet':sortKey == 'OutWard' && !reverse}"></span>
+                    </th>
+                    <th ng-click="reverse=!reverse ; sortKey='Balance' ">
+                        Balance
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'Balance','glyphicon-sort-by-order-alt':sortKey == 'Balance' && reverse,'glyphicon-sort-by-order':sortKey == 'Balance' && !reverse}"></span>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a ng-click="search=''" class="pointer-sort">
+                            <i class="fa fa-refresh fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </th>
+                    <th>
+                        <input type="text" ng-model="search.ItemType" placeholder="Search.." />
+                    </th>
+                    <th>
+                        <input type="text" ng-model="search.ItemName" placeholder="Search.." />
+                    </th>
+                    <th>
+                        <input type="text" ng-model="search.IsClasic" placeholder="Search.." />
+                    </th>
+                    <th>
+                        <input type="text" class="search-txt" ng-model="search.Unit" placeholder="Search.." />
+                    </th>
+                    <th>
+                        <input type="text" ng-model="search.Inward" placeholder="Search.." />
+                    </th>
+                    <th>
+                        <input type="text" ng-model="search.Outward" placeholder="Search.." />
+                    </th>
+                    <th>
+                        <input type="text" ng-model="search.Balance" placeholder="Search.." />
+                    </th>
+
+                </tr>
+                <tr dir-paginate="RegRpt in ItemBalances | filter:search | orderBy:sortKey:reverse | itemsPerPage:ItemsperPage">
+                    <td class="label-center">{{RegRpt.$id}}</td>
+                    <td class="label-left">{{RegRpt.ItemType}}</td>
+                    <td class="label-left">{{RegRpt.ItemName}}</td>
+                    <td class="label-center">{{RegRpt.IsClasic}}</td>
+                    <td class="label-center">{{RegRpt.Unit}}</td>
+                    <td class="label-right">{{RegRpt.Inward}}</td>
+                    <td class="label-right">{{RegRpt.Outward}}</td>
+                    <td class="label-right">{{RegRpt.Balance}} </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-11">
+            <dir-pagination-controls max-size="15" direction-links="true" boundary-links="true">
+            </dir-pagination-controls>
+        </div>
+        <div class="col-md-1">
+            <a><img ng-click="exportToExcel()" src="../Images/excel.png" /></a>
+        </div>
+    </div>
+</section>
+

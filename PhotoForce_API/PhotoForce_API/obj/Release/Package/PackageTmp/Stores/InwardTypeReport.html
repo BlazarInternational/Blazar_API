@@ -1,0 +1,106 @@
+﻿
+<section class="right-content" ng-controller="InwardTypeReportCtrl">
+    <div class="row top-row-strip">
+        <div class="col-md-10">
+            <ol class="breadcrumb">
+                <li>Masters</li>
+                <li class="active">{{InwardTypeHdr}}</li>
+            </ol>
+        </div>
+        <div class="col-md-2">
+            <a class="btn btn-primary" ng-click="InwardTypeAdd()">Add Mode of Transaction</a>
+        </div>
+    </div>
+    <div class="modal fade" ng-show="Model" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+                </div>
+                <div class="modal-body">
+                    Are you Sure..You want to delete this record?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success theam-button btn-xs" ng-click="SDeleteConf();">Yes</button>
+                    <button type="button" class="btn btn-success theam-button btn-xs" ng-click="Cancel();">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-md-1">
+            <label>Search:</label>
+        </div>
+        <div class="col-md-2">
+            <input type="text" ng-model="Search" class="form-control" placeholder="Search">
+        </div>
+        <div class="col-md-1">
+            Mode
+        </div>
+        <div class="col-md-3">
+            <select ng-model="Type" name="Type" class="form-control" ng-change="showbyGroup()"  ng-options="a.Text as a.Text for a in InwardTypeTypes">
+                <option value="" style="display:none">Select Mode of Transaction</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <select ng-model="Status" name="Status" class="form-control" ng-change="StatusChanged()">
+                <option value="Active">Active</option>
+                <option value="InActive">InActive</option>
+            </select>
+        </div>
+        <div class="col-md-1">
+            <label>per page:</label>
+        </div>
+        <div class="col-md-1">
+            <input type="number" class="form-control" value="5" min="5" step="5" numbersonly ng-model="ItemsperPage">
+        </div>
+    </div>
+    <table ng-show="!Linkpermview" class="table table-bordered table-striped">
+        <tr>
+            <th>S No</th>
+            <!--<th>Type</th>-->
+            <th>Name</th>
+            <th>Designation</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Status</th>
+            <th>Edit</th>
+            <!--<th>Delete</th>-->
+        </tr>
+        <tr>
+        <tr dir-paginate="InwardType in InwardTypes | filter:Search | itemsPerPage:ItemsperPage track by $index">
+            <td class="label-center">{{$index +1}}</td>
+            <!--<td>{{InwardType.Type}}</td>-->
+            <td>{{InwardType.Name}}</td>
+            <td>{{InwardType.Designation}}</td>
+            <td>{{InwardType.Address}}</td>
+            <td>{{InwardType.Mobile}}</td>
+            <td class="label-center" ng-class="InwardType.Flag=='InActive' ?'inactivests':''">{{InwardType.Flag }}</td>
+            <td class="label-center">
+                <a ng-click="EditInwardType(InwardType.InwardTypeID)" ng-show="InwardType.Flag !='Deleted'  && InwardType.InwardTypeID>0"><i class="fa fa-edit fa-1x"></i></a>
+            </td>
+            <!--<td class="label-center">
+            <a ng-click="DeleteUnit(Unit.UnitID)" ng-show="Unit.Flag !='Deleted'  && Unit.UnitID>0" data-toggle="modal" data-target="#myModal"><i class="fa fa-trash-o fa-1x"></i></a>
+        </td>-->
+        </tr>
+
+    </table>
+
+    <div class="row">
+        <div class="col-md-11">
+            <dir-pagination-controls max-size="10" direction-links="true" boundary-links="true">
+            </dir-pagination-controls>
+        </div>
+        <div class="col-md-1">
+            <a><img ng-click="exportToExcel()" src="../Images/excel.png" /></a>
+        </div>
+    </div>
+    <div class="overlay-loader" ng-show="loader">
+        <img src="../Images/loading.gif" />
+    </div>
+</section>
+
+
+
+

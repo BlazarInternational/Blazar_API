@@ -1,0 +1,387 @@
+﻿<style>
+    .no-spinners {
+        -moz-appearance: textfield;
+    }
+
+        .no-spinners::-webkit-outer-spin-button,
+        .no-spinners::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+</style>
+<div ng-controller="OutwardCtrl">
+    <ul class="page-breadcrumb breadcrumb">
+        <li>
+            <a>Store Manager</a>
+            <i class="fa fa-angle-double-right"></i>
+        </li>
+        <li>
+            <span>Outward</span>
+        </li>
+    </ul>
+    <div class="modal fade" id="InwardItemsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" style="width:800px" role="document">
+            <form name="MenuForm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Outward Receipt</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="div_print">
+                                    <div style="margin:5% 5% 0% 5%;float:left; width:700px; box-shadow:0 0 3px #aaa; height:auto;color:#666;">
+                                        <div style="width:100%; padding:10px; float:left; background:#1ca8dd; color:#fff; font-size:30px; text-align:center;">
+                                            Receipt
+                                        </div>
+                                        <div style="width:100%; padding:0px 0px;border-bottom:1px solid rgba(0,0,0,0.2);float:left;">
+                                            <div style="width:30%; float:left;padding:10px;">
+
+                                            </div>
+
+                                            <div style="width:40%; float:right;">
+                                                <!--<span style="font-size:14px;float:right;  padding:10px; text-align:right;">
+                                                    <b>Inward Date : </b>{{CreatedDate}}
+                                                </span>-->
+                                                <span style="font-size:14px;float:right;  padding:10px; text-align:right;">
+                                                    <b>Outward No# : </b>{{InwardNo}}
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div style="width:100%; padding:20px; float:left;">
+                                            <table style="width:100%">
+                                                <tr>
+                                                    <td style="width:25%;text-align:left">Type  </td>
+                                                    <td style="width: 25%; text-align: left; color: #736F6E;"> : {{Type}}</td>
+                                                    <td style="width:25%;text-align:left">Name  </td>
+                                                    <td style="width: 25%; text-align: left; color: #736F6E;"> : {{Name}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="width:25%;text-align:left">Challana No : </td>
+                                                    <td style="width: 25%; text-align: left; color: #736F6E;"> : {{ChallanaNo}}</td>
+                                                    <td style="width:25%;text-align:left">Challana Date : </td>
+                                                    <td style="width: 25%; text-align: left; color: #736F6E;"> : {{ChallanaDate}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="width:25%;text-align:left">Challana S.No  </td>
+                                                    <td style="width: 25%; text-align: left; color: #736F6E;"> : {{ChallanaSNo}}</td>
+                                                    <td style="width:25%;text-align:left"> </td>
+                                                    <td style="width: 25%; text-align: left; color: #736F6E;"> </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div style="width:100%; padding:0px; float:left;">
+
+                                            <div style="width:100%;float:left;background:#efefef;">
+                                                <span style="float:left; text-align:left;padding:10px;width:50%;color:#888;font-weight:600;">
+                                                    Items
+                                                </span>
+                                            </div>
+                                            <br />
+                                            <div style="width:98%;float:left;padding-top:20px;padding-left:10px;">
+                                                <table style="width: 97%; border-collapse: collapse; ">
+                                                    <tr>
+                                                        <th style="width: 30%; border: 1px solid gray; text-align: center; background: #AED6F1;">Item Type</th>
+                                                        <th style="width: 30%; border: 1px solid gray; text-align: center; background: #AED6F1;">Item Name</th>
+                                                        <th style="width: 10%; border: 1px solid gray; text-align: center; background: #AED6F1;">Unit</th>
+                                                        <th style="width: 10%; border: 1px solid gray; text-align: center; background: #AED6F1;">Class</th>
+                                                        <th style="width: 10%; border: 1px solid gray; text-align: center; background: #AED6F1;">Remarks</th>
+                                                        <th style="width: 20%; border: 1px solid gray; text-align: center; background: #AED6F1;">Quantity</th>
+                                                    </tr>
+                                                    <tr ng-repeat="tPO in InwardItems track by $index">
+                                                        <td style="width: 30%; border: 1px solid gray; text-align: left; color: #736F6E; ">{{tPO.ItemType}}</td>
+                                                        <td style="width: 30%; border: 1px solid gray; text-align: left; color: #736F6E; ">{{tPO.ItemName}}</td>
+                                                        <td style="width: 10%; border: 1px solid gray; text-align: center; color: #736F6E; ">{{tPO.Unit}}</td>
+                                                        <td style="width: 10%; border: 1px solid gray; text-align: center; color: #736F6E; ">{{tPO.IsClasic}}</td>
+                                                        <td style="width: 10%; border: 1px solid gray; text-align: center; color: #736F6E; ">{{tPO.ItemRemarks}}</td>
+                                                        <td style="width: 20%; border: 1px solid gray; text-align: right; color: #736F6E; ">{{tPO.Inward}}</td>
+                                                    </tr>
+                                                </table>
+                                                <br /><br />
+                                                <br /><br />
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <a><img src="../images/print.png" ng-click="printDiv('div_print');" /></a>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="page-content portlet light">
+
+        <div class="row col-md-12 form-group" ng-show="dispprds">
+            <form class="filter" name="Form_SalesOrders" novalidate>
+                <div>
+                    <div class="row form-group">
+                        <div class="col-md-10">
+                            <h4 class="modal-title" style="font-weight: bold;">Outward Details</h4>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-6" ng-class="{ 'has-error' : Form_SalesOrders.txtSName.$invalid && !Form_SalesOrders.txtSName.$pristine }">
+                            <label class="col-sm-4 control-label label-right">
+                                From Type
+                            </label>
+                            <label class="col-sm-1 control-label">
+                                :
+                            </label>
+                            <div class="col-sm-7">
+                                <select ng-model="FromType" name="FromType" class="form-control" ng-required="true" ng-change="GetFromTypeNames()" ng-options="a.Text as a.Text for a in FromTypes">
+                                    <option value="" style="display:none">Select From Type</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6" ng-class="{ 'has-error' : Form_SalesOrders.txtSName.$invalid && !Form_SalesOrders.txtSName.$pristine }">
+                            <label class="col-sm-4 control-label label-right">
+                                Name
+                            </label>
+                            <label class="col-sm-1 control-label">
+                                :
+                            </label>
+                            <div class="col-sm-7">
+                                <select ng-model="FromTypeName" name="FromTypeName" class="form-control" ng-required="true" ng-options="a.Text as a.Text for a in FromTypeNames">
+                                    <option value="" style="display:none">Select From Type Name</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-6" ng-class="{ 'has-error' : Form_SalesOrders.txtSName.$invalid && !Form_SalesOrders.txtSName.$pristine }">
+                            <label class="col-sm-4 control-label label-right">
+                                Challana No
+                            </label>
+                            <label class="col-sm-1 control-label">
+                                :
+                            </label>
+                            <div class="col-sm-7">
+                                <input type="text" name="txtChallanaNo" autocomplete="off" ng-model="txtChallanaNo" class="form-control" ng-required="true" ng-focus="name.focus=true" ng-blur="name.focus=false">
+                                <div ng-show="Form_CreateOutwardTypeFilter.txtChallanaNo.$invalid && !Form_CreateOutwardTypeFilter.txtChallanaNo.$pristine && name.focus" class="validation_info">
+                                    <ul class="ulvalid">
+                                        <li class="invalid" ng-show="Form_CreateOutwardTypeFilter.txtChallanaNo.$invalid">Challana No is required.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" ng-class="{ 'has-error' : Form_SalesOrders.txtSName.$invalid && !Form_SalesOrders.txtSName.$pristine }">
+                            <label class="col-sm-4 control-label label-right">
+                                Challana S No
+                            </label>
+                            <label class="col-sm-1 control-label">
+                                :
+                            </label>
+                            <div class="col-sm-7">
+                                <input type="text" name="txtChallanaSNo" autocomplete="off" ng-model="txtChallanaSNo" class="form-control">
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row form-group">
+                        <div class="col-md-6" ng-class="{ 'has-error' : Form_SalesOrders.txtSName.$invalid && !Form_SalesOrders.txtChallanaDate.$pristine }">
+                            <label class="col-sm-4 control-label label-right">
+                                Challana Date
+                            </label>
+                            <label class="col-sm-1 control-label">
+                                :
+                            </label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" uib-datepicker-popup="dd/MM/yyyy" ng-model="txtDop" is-open="ODOD.opened" ng-click="DoD($event)"
+                                       min-date="minDate" max-date="maxDate" datepicker-options="dateOptions" name="txtChallanaDate" placeholder="Select Date"
+                                       show-button-bar="false" show-weeks="false" formatyear="yyyy" ng-readonly="true" ng-required="true" />
+                                <span class="input-calendar" ng-click="DoD($event)"></span>
+                                <div ng-show="Form_CreditRequest.txtChallanaDate.$invalid && !Form_CreditRequest.txtDepositDate.$pristine" class="validation_info">
+                                    <ul class="ulvalid">
+                                        <li class="invalid" ng-show="Form_CreditRequest.txtChallanaDate.$invalid">Challana Date is required.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" ng-class="{ 'has-error' : Form_SalesOrders.txtSName.$invalid && !Form_SalesOrders.txtSName.$pristine }">
+                            <label class="col-sm-4 control-label label-right">
+                                Remarks
+                            </label>
+                            <label class="col-sm-1 control-label">
+                                :
+                            </label>
+                            <div class="col-sm-7">
+                                <input type="text" name="txtRemarks" autocomplete="off" ng-model="txtRemarks" class="form-control" ng-focus="name.focus=true" ng-blur="name.focus=false">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <hr />
+                    </div>
+                </div>
+                <div ng-show="DivProducts">
+
+                    <div class="row form-group">
+                        <div class="col-xs-6 col-md-4">
+                            <label class="col-sm-4 control-label label-right">
+                                Item Type
+                            </label>
+                            <label class="col-sm-1 control-label">
+                                :
+                            </label>
+                            <div class="col-sm-7">
+                                <select ng-model="ItemType" name="ItemType" class="form-control" ng-required="true" ng-change="GetItemNames()" ng-options="a.Text as a.Text for a in ItemTypes">
+                                    <option value="" style="display:none">Select Item Type</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-4">
+                            <label class="col-sm-4 control-label label-right">
+                                Item Name
+                            </label>
+                            <label class="col-sm-1 control-label">
+                                :
+                            </label>
+                            <div class="col-sm-7">
+                                <div style="padding-top: 200px;" class="modal fade" id="ItemsList" role="dialog" aria-labelledby="myModalLabel">
+                                    <div style="padding-left: 300px; " class="modal-dialog" role="document">
+                                        <form name="MenuForm">
+                                            <div style="width: 300px; height: 290px; background-color: #F8F9F9; border: 5px solid lightblue; border-radius: 6px; " class="modal-content">
+                                                <div class="modal-body">
+                                                    <div class="row">
+                                                        <div style="width:280px; height: 250px; overflow-x:hidden; overflow:auto; " class="col-md-4">
+                                                            <div ng-repeat="Item in Items">
+                                                                <input id="chk_{{Item.text}}" type="checkbox" ng-model="Item.Selected" /> {{Item.text}}&nbsp;
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <a ng-click="HideItems()">Select</a>
+                                                        </div>
+                                                        <!--<a ng-click="HideItems()">Select</a>-->
+                                                        <div class="col-md-2">
+                                                            <a data-dismiss="modal">Close</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <a ng-click="GetItemNames()">{{SelectItems}}</a>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-4">
+                            <label class="col-sm-4 control-label label-right">
+                                Class
+                            </label>
+                            <label class="col-sm-1 control-label">
+                                :
+                            </label>
+                            <div class="col-sm-7">
+                                <select class="form-control" ng-required="true" ng-model="IsClasic" name="IsClasic">
+                                    <option value="" style="display:none"> Select Class </option>
+                                    <option value="Class A">Class A</option>
+                                    <option value="Release">Release</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="col-md-1 control-label label-right" style="width:10%">
+                                Remarks
+                            </label>
+                            <label class="col-md-1" style="width:0%">
+                                :
+                            </label>
+                            <div class="col-md-9" style="padding-left:22px">
+                                <textarea name="ItemRemarks" style="height:50px;width:100%" ng-model="ItemRemarks" class="form-control"></textarea>
+                            </div>
+                            <div class="col-md-1">
+                                <button type="submit" class="btn btn-primary btn-sm" ng-click="AddItems()">
+                                    Add Item
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="row form-group">
+                        <div class="col-md-offset-8 col-md-2">
+                        </div>
+                        <div class="col-md-1">
+                            <button type="submit" class="btn btn-primary btn-sm" ng-click="AddItems()">
+                                Add Item
+                            </button>
+                        </div>
+                        <div class="col-md-1">
+                            <img ng-show="addprdloader" src="../Images/loading.gif" class="loading" />
+                        </div>
+                    </div>-->
+                </div>
+            </form>
+        </div>
+        <div class="row" ng-show="Addprds">
+            <form name="FormOrder" novalidate>
+                <div class="col-md-12">
+                    <table class="table table-bordered table-striped">
+                        <tr>
+
+                            <th>Item Type</th>
+                            <th>Item Name</th>
+                            <th>Unit</th>
+                            <th>Class</th>
+                            <th>Balance</th>
+                            <th>Quantity</th>
+                            <th>Remarks</th>
+                            <th ng-show="dispprds">Delete</th>
+                        </tr>
+                        <tr ng-repeat="tPO in SelectItemsList track by $index">
+
+                            <td class="label-left">{{tPO.ItemType}}</td>
+                            <td class="label-left">{{tPO.ItemName}}</td>
+                            <td class="label-left">{{tPO.Unit}}</td>
+                            <td class="label-right">{{tPO.IsClasic}}</td>
+                            <td class="label-right">{{tPO.Balance}}</td>
+                            <td width="80px" class="label-center">
+                                <input type="number" name="{{$index+1}}" autocomplete="off" class="no-spinners" placeholder="Qty" ng-change="CheckBalanceQty(tPO)" ng-model="tPO.Inward" width="100" class="form-control" ng-required="true">
+                            </td>
+                            <td class="label-right">{{tPO.ItemRemarks}}</td>
+                            <td class="label-center" ng-show="dispprds"><a ng-click="DeleteItem(tPO)"><i class="fa fa-trash-o"></a></td>
+                        </tr>
+                    </table>
+
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-md-offset-6 col-md-2">
+                        <button type="submit" class="btn btn-default" ng-click="ResetOrder()">Reset</button>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" id="btnSubmit" class="btn btn-primary btn-sm" ng-click="ItemsConfirm()">Submit</button>
+                    </div>
+                    <div class="col-md-2">
+                        <img ng-show="orderloader" src="../Images/loading.gif" class="loading" />
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+</div>

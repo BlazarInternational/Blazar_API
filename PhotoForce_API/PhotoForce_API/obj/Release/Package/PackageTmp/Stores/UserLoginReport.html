@@ -1,0 +1,207 @@
+﻿
+<section class="right-content" ng-controller="UserLoginReportCtrl">
+    <div class="row top-row-strip">
+        <div class="col-md-10">
+            <ol class="breadcrumb">
+                <li>User Manager</li>
+                <li class="active">{{Header}}</li>
+            </ol>
+        </div>
+        <div class="col-md-2">
+            <a class="btn btn-healux btn-xs pull-right filter" data-toggle="modal" data-target="#myModal">Filter</a>
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <form name="MenuForm" ng-submit="GetUserLogin()" novalidate>
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" ng-click="popupclose()"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">UserLogin Report</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="radio">
+                                            <label class="control-label">
+                                                UserType
+                                            </label>
+                                            </div>
+                                        </div>
+                                    <div class="col-md-4">
+                                        <select name="utype" id="utpe" ng-required="true" ng-model="ddlUtype" class="form-control" ng-change="BindDatatoUsers(ddlUtype)">
+                                            <option value="" selected="selected" style="display:none">Select</option>
+                                            <option value="Admin">Admin</option>                                           
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="rbcontent" ng-model="rbcontent" value="rball" ng-checked="true" ng-change="AssignValidations()">
+                                                All
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="radio">
+                                            <label class="control-label">
+                                                <input type="radio" name="rbcontent" ng-model="rbcontent" value="rbon" ng-change="AssignValidations()">
+                                                On
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input type="text" class="form-control" uib-datepicker-popup="dd/MM/yyyy" ng-model="txtOndate" is-open="ondatests.opened" ng-click="OnRequired && openondatests($event)"
+                                               min-date="minDate" max-date="maxDate" datepicker-options="dateOptions" ng-required="OnRequired" placeholder="Select On Date"
+                                               show-button-bar="false" show-weeks="false" formatyear="yyyy" ng-readonly="true" />
+                                        <span class="input-calendar" ng-click="OnRequired && openondatests($event)"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="radio">
+                                            <label class="control-label">
+                                                <input type="radio" name="rbcontent" ng-model="rbcontent" value="FromTo" ng-change="AssignValidations()">
+                                                From
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input type="text" class="form-control" uib-datepicker-popup="dd/MM/yyyy" ng-model="txtFromdate" is-open="fromdatests.opened" ng-click="fromtoRequired && openfromdatests($event)"
+                                               min-date="minDate" max-date="frommaxDate" datepicker-options="dateOptions" ng-required="fromtoRequired" placeholder="Select From Date"
+                                               show-button-bar="false" show-weeks="false" formatyear="yyyy" ng-readonly="true" />
+                                        <span class="input-calendar" ng-click="fromtoRequired && openfromdatests($event)"></span>
+                                    </div>
+                                    <div class="col-md-1"><div class="radio"><label class="control-label">To </label></div></div>
+                                    <div class="col-md-4">
+                                        <input type="text" class="form-control" uib-datepicker-popup="dd/MM/yyyy" ng-model="txtTodate" is-open="todatests.opened" ng-click="fromtoRequired && opentodatests($event)"
+                                               min-date="minDate" max-date="maxDate" datepicker-options="dateOptions" placeholder="Select To Date"
+                                               show-button-bar="false" show-weeks="false" formatyear="yyyy" ng-readonly="true" ng-change="Assignfrommaxdate()" ng-required="fromtoRequired" />
+                                        <span class="input-calendar" ng-click="fromtoRequired && opentodatests($event)"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="radio">
+                                            <label class="control-label">
+                                                Users
+                                            </label>
+                                            </div>
+                                        </div>
+                                    <div class="col-md-4">
+                                        <select name="Users" id="ddluser" ng-options="s.uid as s.Username for s in tableusers" ng-required="true" ng-model="ddlUsers" class="form-control">
+                                            <option value="" selected="selected" style="display:none">Select</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <button type="submit" id="btngetrpt" class="btn btn-primary btn-sm" ng-disabled="MenuForm.$invalid">
+                                            SUBMIT
+                                        </button>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <img ng-show="loader" src="../Images/loading.gif" class="loading" />
+                                    </div>
+                                    <div class="col-md-2">
+                                        <button type="button" class="btn btn-default btn-sm" ng-click="popupclose()">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-md-1">
+            
+        </div>
+        <div class="col-md-3">
+            
+        </div>
+        <div class="col-md-offset-4 col-md-2">
+            <label>Items per page:</label>
+        </div>
+        <div class="col-md-2">
+            <input type="number" class="form-control" value="10" min="10" step="10" ng-pattern="/^(0|[1-9][0-9]*)$/" ng-model="ItemsperPage">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered table-striped">              
+                <tr>
+                    <th ng-click="sort('')">
+                        SNo
+                        <span class="glyphicon sort-icon glyphicon-refresh"></span>
+                    </th>
+                    <th ng-click="sort('username')">
+                        UserName
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'username','glyphicon-sort-by-alphabet':sortKey == 'username' && reverse,'glyphicon-sort-by-alphabet-alt':sortKey == 'username' && !reverse}"></span>
+                    </th>
+                    <th ng-click="sort('sesid')">
+                        SessionId
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'sesid','glyphicon-sort-by-alphabet':sortKey == 'sesid' && reverse,'glyphicon-sort-by-alphabet-alt':sortKey == 'sesid' && !reverse}"></span>
+                    </th>
+                    <th ng-click="sort('ipaddress')">
+                        IPAddress
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'ipaddress','glyphicon-sort-by-alphabet':sortKey == 'ipaddress' && reverse,'glyphicon-sort-by-alphabet-alt':sortKey == 'ipaddress' && !reverse}"></span>
+                    </th>
+                    <th ng-click="sort('sesin')">
+                        SessonIn
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'sesin','glyphicon-sort-by-order':sortKey == 'sesin' && reverse,'glyphicon-sort-by-order-alt':sortKey == 'sesin' && !reverse}"></span>
+                    </th>
+                    <th ng-click="sort('sesout')">
+                        SessionOut
+                        <span class="glyphicon sort-icon" ng-class="{'glyphicon-sort':sortKey != 'sesout','glyphicon-sort-by-order':sortKey == 'sesout' && reverse,'glyphicon-sort-by-order-alt':sortKey == 'sesout' && !reverse}"></span>
+                    </th>                    
+                </tr>
+                <tr>
+                    <th>
+                        <a ng-click="search=''" class="pointer-sort">
+                            <i class="fa fa-refresh fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </th>                  
+                    <th>
+                        <input type="text" ng-model="search.username" placeholder="Search.." />
+                    </th>
+                    <th>
+                        <input type="text" ng-model="search.sesid" placeholder="Search.." />
+                    </th>
+                    <th>
+                        <input type="text" ng-model="search.ipaddress" placeholder="Search.." />
+                    </th>
+                    <th>
+                        <input type="text" ng-model="search.sesin" placeholder="Search.." />
+                    </th>
+                    <th>
+                        <input type="text" ng-model="search.sesout" placeholder="Search.." />
+                    </th>
+                </tr>
+                <tr dir-paginate="L in LoginDate | filter:search | orderBy:sortKey:reverse | itemsPerPage:ItemsperPage track by $index">
+                    <td class="label-center">{{L.$id}}</td>
+                    <td class="label-center">{{L.username}}</td>
+                    <td class="label-center">{{L.sesid}}</td>
+                    <td class="label-center">{{L.ipaddress}}</td>
+                    <td class="label-center">{{L.sesin}}</td>
+                    <td class="label-center">{{L.sesout}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-11">
+            <dir-pagination-controls max-size="15" direction-links="true" boundary-links="true">
+            </dir-pagination-controls>
+        </div>
+        <div class="col-md-1">
+            <a><img ng-click="exportToExcel()" src="../Images/excel.png" /></a>
+        </div>
+    </div>
+</section>

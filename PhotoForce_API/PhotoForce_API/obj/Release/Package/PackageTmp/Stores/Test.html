@@ -1,0 +1,267 @@
+﻿<html>
+<head>
+    <title>Angular Multiselect Checkbox Dropdown</title>
+    
+    
+    
+    
+    
+    
+    
+    <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-sanitize.min.js"></script>
+    <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-sanitize.min.js"></script>
+    <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-sanitize.min.js"></script>
+    <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-sanitize.min.js"></script>
+    <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-resource.min.js"></script>
+    <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap.min.js"></script>
+    <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.13/angular-ui-router.min.js"></script>
+    <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui/0.4.0/angular-ui.min.js"></script>
+    
+    
+
+    <link rel="stylesheet" href="../Styles/alertify.core.css" />
+    <link rel="stylesheet" href="../Styles/alertify.default.css" id="toggleCSS" />
+    <script src="../JS/jquery.min.js"></script>
+
+
+    <script type="text/javascript" src="../Scripts/alertify.min.js"></script>
+    <script src="../Scripts/jquery-ui.js"></script>
+
+    <link href="../Styles/datetimepicker.min.css" rel="stylesheet" />
+
+    <link href="../Styles/bootstrap.min.css" rel="stylesheet">
+    <link href="../Styles/style.css" rel="stylesheet">
+    <link href="../Styles/responsive.css" rel="stylesheet">
+    <link href="../Styles/MyStyle.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../Styles/font-awesome.min.css">
+    <script src="../JS/choosen.js"></script>
+    <script src="../JS/chosen_jquery.js"></script>
+    <link href="../Styles/chosen.css" rel="stylesheet" />
+
+        <style>
+            multiselect {
+                display: block;
+            }
+
+                multiselect > .btn-group {
+                    min-width: 180px;
+                }
+
+                multiselect .btn {
+                    width: 100%;
+                    background-color: #FFF;
+                }
+
+                    multiselect .btn.has-error {
+                        border: 1px solid #a94442 !important;
+                        color: #db524b;
+                    }
+
+                multiselect .dropdown-menu {
+                    max-height: 300px;
+                    min-width: 200px;
+                    overflow-y: auto;
+                }
+
+                    multiselect .dropdown-menu .filter > input {
+                        width: 99%;
+                    }
+
+                    multiselect .dropdown-menu .filter .glyphicon {
+                        cursor: pointer;
+                        pointer-events: all;
+                    }
+
+                multiselect .dropdown-menu {
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 2px;
+                }
+
+                multiselect > .btn-group > button {
+                    padding-right: 20px;
+                }
+
+                    multiselect > .btn-group > button > .caret {
+                        border-left: 4px solid transparent;
+                        border-right: 4px solid transparent;
+                        border-top: 4px solid black;
+                        right: 5px;
+                        top: 45%;
+                        position: absolute;
+                    }
+
+                multiselect .dropdown-menu > li > a {
+                    padding: 3px 10px;
+                    cursor: pointer;
+                }
+
+                    multiselect .dropdown-menu > li > a i {
+                        margin-right: 4px;
+                    }
+
+            .glyphicon-none:before {
+                content: "\e013";
+                color: transparent !important;
+            }
+        </style>
+        <script type='text/javascript'>
+            (function () {
+                angular.module('myApp.controllers', []);
+
+                var myApp = angular.module('myApp', [
+                    'myApp.controllers',
+                    'long2know',
+                    'ngSanitize',
+                    'ui.bootstrap',
+                    'ui.router',
+                    'ui']);
+
+                var state1Ctrl = function () {
+                    var vm = this,
+                    getRandomInt = function (min, max) {
+                        return Math.floor(Math.random() * (max - min + 1) + min);
+                    };
+
+                    vm.options1 = [];
+                    for (var i = 0; i < 10; i++) {
+                        vm.options1.push({ key: i + 1, value: 'Prop' + (i + 1).toString() });
+                    }
+
+                    vm.options2 = [];
+                    for (var i = 0; i < 100; i++) {
+                        vm.options2.push({ key: i + 1, value: 'Prop' + (i + 1).toString() });
+                    }
+
+                    vm.option6 = 3;
+                    vm.option7 = [4, 11, 23];
+
+                    vm.clear = function () {
+                        vm.option1 = [];
+                        vm.option2 = [];
+                        vm.option3 = [];
+                        vm.option4 = [];
+                        vm.option5 = [];
+                        vm.option6 = [];
+                        vm.option7 = [];
+                    };
+
+                    vm.randomSelect = function () {
+                        vm.clear();
+                        var arrSelected = [vm.option1, vm.option2, vm.option3, vm.option4, vm.option5, vm.option6, vm.option7];
+                        var arrOptions = [vm.options1, vm.options2, vm.options2, vm.options1, vm.options1, vm.options1, vm.options2];
+                        var arrIsSingle = [false, false, false, true, false, false, false];
+                        var arrIsSimple = [true, true, false, false, true, true, true];
+
+                        for (var i = 0; i < arrSelected.length; i++) {
+                            var selected = arrSelected[i];
+                            var options = arrOptions[i];
+                            var isSingle = arrIsSingle[i];
+                            var isSimple = arrIsSimple[i];
+                            var min = 0;
+                            var max = options.length - 1;
+                            if (isSingle) {
+                                var randIndex = getRandomInt(min, max);
+                                if (isSimple) {
+                                    selected.push(options[randIndex].key);
+                                } else {
+                                    selected.push(options[randIndex]);
+                                }
+                            }
+                            else {
+                                var toSelectIndexes = [];
+                                var numItems = getRandomInt(0, options.length) + 1;
+                                for (var j = 0; j < getRandomInt(1, numItems) ; j++) {
+                                    var randIndex = getRandomInt(min, max);
+                                    var arrIndex = toSelectIndexes.indexOf(randIndex);
+                                    if (arrIndex == -1) {
+                                        toSelectIndexes.push(randIndex);
+                                        if (isSimple) {
+                                            selected.push(options[randIndex].key);
+                                        } else {
+                                            selected.push(options[randIndex]);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                };
+
+                state1Ctrl.$inject = [];
+
+                angular.module('myApp.controllers')
+                    .controller('state1Ctrl', state1Ctrl);
+
+                myApp.config(['$locationProvider', '$stateProvider', '$urlRouterProvider',
+
+                    function ($locationProvider, $stateProvider, $urlRouterProvider) {
+
+                        $locationProvider.html5Mode(false);
+
+                        $urlRouterProvider.when('/', '/state1')
+                            .otherwise("/state1");
+
+                        $stateProvider.state('app', {
+                            abstract: true,
+                            url: '/',
+                            views: {
+                                'main': {
+                                    template: '<div ui-view>/div>'
+                                }
+                            }
+                        })
+                        .state('app.state1', {
+                            url: 'state1',
+                            templateUrl: 'state1.html',
+                            controller: 'state1Ctrl',
+                            controllerAs: 'vm',
+                            reloadOnSearch: false
+                        })
+                    }]);
+
+                myApp.run(['$log', function ($log) {
+                    $log.log("Start.");
+                }]);
+            })()
+        </script>
+        <script src="../JS/jquery.multiselect.js"></script>
+</head>
+
+
+<body ng-app="myApp">
+    <div ng-include="'menu.html'"></div>
+    <div ui-view="main"></div>
+    <script type="text/ng-template" id="menu.html">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <span class="navbar-brand">Our Menu</span>
+                </div>
+            </div>
+        </nav>
+    </script>
+    <script type="text/ng-template" id="state1.html">
+        <div class="row">
+            <div class="col-lg-2">
+                <form>
+                    <div class="form-group">
+                        <multiselect class="input-xlarge multiselect" ng-model="vm.option1" options="p.key as p.value for p in vm.options1" select-limit="5"
+                                     header="Select Stuff1" selected-header="options selected" multiple="true" required
+                                     enable-filter="true" filter-placeholder="Filter stuff..">
+                        </multiselect>
+                    </div>
+                    <div>
+                        <div>
+                            Option1
+                            <pre ng-bind="vm.option1 | json"></pre>
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </script>
+</body>
+</html>

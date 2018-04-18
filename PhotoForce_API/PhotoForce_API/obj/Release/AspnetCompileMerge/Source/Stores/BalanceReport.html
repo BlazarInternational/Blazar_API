@@ -1,0 +1,241 @@
+﻿
+<section class="right-content" ng-controller="BalanceReportCtrl">
+    <div class="row top-row-strip">
+        <div class="col-md-12">
+            <ol class="breadcrumb">
+                <li>Reports</li>
+                <!--<li class="active">{{RptHeader}}</li>-->
+            </ol>
+        </div>
+    </div>
+    <div class="modal fade" id="InwardItemsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" style="width:800px" role="document">
+            <form name="MenuForm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        <!--<h4 class="modal-title" id="myModalLabel">Balance Details for {{Type}}</h4>-->
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="div_print">
+
+                                    <div style="width:100%;float:left;background:#efefef;">
+                                        <span style="float:left; text-align:center;padding:10px;width:100%;color:#888;font-weight:600;">
+                                            Balance Details for {{Type}}
+                                        </span>
+                                    </div><br />
+
+                                    <div style="margin:5% 5% 0% 5%;float:left; width:700px; box-shadow:0 0 3px #aaa; height:auto;color:#666;">
+
+                                        <div style="width:100%; padding:20px; float:left;">
+                                            <table style="width:100%">
+                                                <tr>
+                                                    <td style="width:25%;text-align:left">Fromdate  </td>
+                                                    <td style="width: 25%; text-align: left; color: #736F6E;"> : {{fromdate2}}</td>
+                                                    <td style="width:25%;text-align:left">Todate  </td>
+                                                    <td style="width: 25%; text-align: left; color: #736F6E;"> : {{todate2}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="width:25%;text-align:left">ItemType : </td>
+                                                    <td style="width: 25%; text-align: left; color: #736F6E;"> : {{ItemType}}</td>
+                                                    <td style="width:25%;text-align:left">ItemName : </td>
+                                                    <td style="width: 25%; text-align: left; color: #736F6E;"> : {{ItemName}}</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div style="width:100%; padding:0px; float:left;">
+
+                                            <div style="width:100%;float:left;background:#efefef;">
+                                                <span style="float:left; text-align:left;padding:10px;width:50%;color:#888;font-weight:600;">
+                                                    Details
+                                                </span>
+                                            </div>
+                                            <br />
+                                            <div style="width:98%;float:left;padding-top:20px;padding-left:10px;">
+                                                <table style="width: 97%; border-collapse: collapse; ">
+                                                    <tr>
+                                                        <th style="width: 15%; border: 1px solid gray; text-align: center; background: #AED6F1;">Outward No</th>
+                                                        <th style="width: 15%; border: 1px solid gray; text-align: center; background: #AED6F1;">Type</th>
+                                                        <th style="width: 20%; border: 1px solid gray; text-align: center; background: #AED6F1;">Name</th>
+                                                        <th style="width: 15%; border: 1px solid gray; text-align: center; background: #AED6F1;">Challana No</th>
+                                                        <th style="width: 15%; border: 1px solid gray; text-align: center; background: #AED6F1;">Challana SNo</th>
+                                                        <th style="width: 15%; border: 1px solid gray; text-align: center; background: #AED6F1;">Challana Date</th>
+                                                        <th style="width: 10%; border: 1px solid gray; text-align: center; background: #AED6F1;">Quantity</th>
+                                                    </tr>
+                                                    <tr ng-repeat="tPO in InwardItems track by $index">
+                                                        <td style="width: 15%; border: 1px solid gray; text-align: left; color: #736F6E; ">{{tPO.OutwardNo}}</td>
+                                                        <td style="width: 15%; border: 1px solid gray; text-align: left; color: #736F6E; ">{{tPO.Type}}</td>
+                                                        <td style="width: 20%; border: 1px solid gray; text-align: left; color: #736F6E; ">{{tPO.Name}}</td>
+                                                        <td style="width: 15%; border: 1px solid gray; text-align: center; color: #736F6E; ">{{tPO.ChallanaNo}}</td>
+                                                        <td style="width: 15%; border: 1px solid gray; text-align: center; color: #736F6E; ">{{tPO.ChallanaSNo}}</td>
+                                                        <td style="width: 15%; border: 1px solid gray; text-align: center; color: #736F6E; ">{{tPO.ChallanaDate | date:'dd MMM yyyy'}}</td>
+                                                        <td style="width: 10%; border: 1px solid gray; text-align: right; color: #736F6E; ">{{tPO.Qty}}</td>
+                                                    </tr>
+                                                </table>
+                                                <br /><br />
+                                                <br /><br />
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <a><img src="../images/print.png" ng-click="printDiv('div_print');" /></a>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-md-12" ng-class="{ 'has-error' : MenuForm.txtFromdate.$invalid && !MenuForm.txtFromdate.$pristine && MenuForm.txtTodate.$invalid && !MenuForm.txtTodate.$pristine }">
+            <div class="col-md-1"><div class="radio"><label class="control-label">From </label></div></div>
+            <div class="col-md-2">
+                <input type="text" class="form-control" uib-datepicker-popup="dd/MM/yyyy" ng-model="txtFromdate" is-open="fromdatests.opened" ng-click="fromtoRequired && openfromdatests($event)"
+                       datepicker-options="dateOptions" placeholder="Select Fromdate"
+                       show-button-bar="false" show-weeks="false" formatyear="yyyy" ng-readonly="true" />
+                <span class="input-calendar" ng-click="fromtoRequired && openfromdatests($event)"></span>
+
+            </div>
+            <div class="col-md-1"><div class="radio"><label class="control-label">To </label></div></div>
+            <div class="col-md-2">
+                <input type="text" class="form-control" uib-datepicker-popup="dd/MM/yyyy" ng-model="txtTodate" is-open="todatests.opened" ng-click="fromtoRequired && opentodatests($event)"
+                       datepicker-options="dateOptions" placeholder="Select Todate"
+                       show-button-bar="false" show-weeks="false" formatyear="yyyy" ng-readonly="true" />
+                <span class="input-calendar" ng-click="fromtoRequired && opentodatests($event)"></span>
+            </div>
+            <div class="col-md-2">
+                <!--<button type="button" id="btnsubmit" ng-click="GetInwardReport();" class="btn btn-primary btn-sm">Submit</button>-->
+            </div>
+            <div class="col-md-4">
+                <div class="col-md-8">
+                    <label>Items per page:</label>
+                </div>
+                <div class="col-md-4">
+                    <input type="number" class="form-control" value="10" min="10" step="10" ng-pattern="/^(0|[1-9][0-9]*)$/" ng-model="ItemsperPage">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <label class="col-sm-2 control-label label-left">
+                Item Group
+            </label>
+            <div class="col-sm-8  control-label label-left">
+                <div style="padding-top: 200px;" class="modal fade" id="ItemsList" role="dialog" aria-labelledby="myModalLabel">
+                    <div style="padding-left: 300px; " class="modal-dialog" role="document">
+                        <form name="MenuForm">
+                            <div style="width: 300px; height: 290px; background-color: #F8F9F9; border: 5px solid lightblue; border-radius: 6px; " class="modal-content">
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div style="width:280px; height: 250px; overflow-x:hidden; overflow:auto; " class="col-md-4">
+                                            <div ng-repeat="Item in Items">
+                                                <input id="chk_{{Item.text}}" type="checkbox" ng-model="Item.Selected" /> {{Item.text}}&nbsp;
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <a ng-click="HideItems()">Select</a>
+                                        </div>
+                                        
+                                        <div class="col-md-2">
+                                            <a data-dismiss="modal">Close</a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <a ng-click="LoadItemTypes()">{{SelectItems}}</a>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" id="btnsubmit" ng-click="GetInwardReport();" class="btn btn-primary btn-sm">Submit</button>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="row">
+        <div id="div_printMain" class="col-md-12 table-responsive">
+
+            <div style="width:100%;float:left;background:#efefef;">
+                <span style="float:left; text-align:center;padding:10px;width:100%;color:#888;font-weight:600;">
+                    {{RptHeader}}
+                </span>
+            </div><br />
+            <table class="table table-bordered table-striped">
+                <tr>
+                    <th colspan="4"></th>
+                    <th colspan="3">{{fromdate2}} - {{todate2}}</th>
+                    <th></th>
+
+                </tr>
+                <tr>
+                    <th width="5%">Sl No</th>
+                    <th width="35%">Description of Material</th>
+                    <th width="7%">Unit</th>
+                    <th width="5%">Stock as on {{fromdate2}}</th>
+                    <th width="5%">Receipts</th>
+                    <th width="5%">Work</th>
+                    <th width="5%">To Other Units/Other Railways</th>
+                    <th width="5%">Balance</th>
+                    <!--<th>Delete</th>-->
+                </tr>
+                <tbody dir-paginate="item in ItemBalances | itemsPerPage:ItemsperPage track by $index">
+                    <tr>
+                        <td class="label-center">{{item.RowNo}}</td>
+                        <td colspan="7" style="font-weight:bold">{{item.ItemType}}</td>
+                        <!--<td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>-->
+                    </tr>
+                    <tr ng-repeat="subitem in item.BalItemNamesList">
+                        <td class="label-center">{{subitem.RowNo}}</td>
+                        <td style="text-align: left;">{{subitem.ItemName}}</td>
+                        <td style="text-align: center;">{{subitem.Unit}}</td>
+                        <td style="text-align: right;">{{subitem.PrevMonthStock}}</td>
+                        <td style="text-align: right;">{{subitem.CurrentMonthReceipts}}</td>
+                        <td style="text-align: right;">
+                            <a class="btn btn-healux btn-xs pull-right InwardNo" data-toggle="modal" ng-click="GetOutwardItemsByFromType(item.ItemType,subitem.ItemName,'Works')" data-target="#InwardItemsModal">{{subitem.Works}}</a>
+                        </td>
+                        <td style="text-align: right;">
+                            <a class="btn btn-healux btn-xs pull-right InwardNo" data-toggle="modal" ng-click="GetOutwardItemsByFromType(item.ItemType,subitem.ItemName,'To Other Units Other Railways')" data-target="#InwardItemsModal">{{subitem.Others}}</a>
+                        </td>
+                        <td style="text-align: right;">{{subitem.Balance}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-11">
+            <dir-pagination-controls max-size="15" direction-links="true" boundary-links="true">
+            </dir-pagination-controls>
+        </div>
+        <div class="col-md-1">
+            <a><img src="../images/print.png" ng-click="printDiv('div_printMain');" /></a>
+            <!--<a><img ng-click="exportToExcel()" src="../Images/excel.png" /></a>-->
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,25 @@
+﻿<style>
+    .style {
+        margin-top: 15%;
+        font-weight: bold;
+        font-size: xx-large;
+        color: #808080;
+    }
+</style>
+<script type="text/javascript">
+    function isUndefinedOrNull(val) {
+        if (val === null || val === undefined)
+            return '';
+        else
+            return val;
+    }
+    if (isUndefinedOrNull(sessionStorage.getItem("Uid")) == '') {
+        window.location = "Login.html";
+    }
+</script>
+
+<div style="height: 600px; width: 700px; background: url('../Images/Bullet_Train.jpg') center center no-repeat; margin-left:130px;">
+   
+</div>
+
+

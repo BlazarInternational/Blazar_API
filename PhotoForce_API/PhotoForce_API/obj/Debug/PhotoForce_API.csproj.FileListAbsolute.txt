@@ -1,0 +1,16 @@
+E:\Blazar\Blazar\Blazar_API\PhotoForce_API\PhotoForce_API\obj\Debug\PhotoForce_API.csprojResolveAssemblyReference.cache
+E:\Blazar\Blazar\Blazar_API\PhotoForce_API\PhotoForce_API\bin\PhotoForce_API.dll.config
+E:\Blazar\Blazar\Blazar_API\PhotoForce_API\PhotoForce_API\bin\PhotoForce_API.dll
+E:\Blazar\Blazar\Blazar_API\PhotoForce_API\PhotoForce_API\bin\PhotoForce_API.pdb
+E:\Blazar\Blazar\Blazar_API\PhotoForce_API\PhotoForce_API\bin\Newtonsoft.Json.xml
+E:\Blazar\Blazar\Blazar_API\PhotoForce_API\PhotoForce_API\bin\System.Net.Http.Formatting.xml
+E:\Blazar\Blazar\Blazar_API\PhotoForce_API\PhotoForce_API\bin\System.Web.Helpers.xml
+E:\Blazar\Blazar\Blazar_API\PhotoForce_API\PhotoForce_API\bin\System.Web.Http.xml
+E:\Blazar\Blazar\Blazar_API\PhotoForce_API\PhotoForce_API\bin\System.Web.Http.WebHost.xml
+E:\Blazar\Blazar\Blazar_API\PhotoForce_API\PhotoForce_API\bin\System.Web.Mvc.xml
+E:\Blazar\Blazar\Blazar_API\PhotoForce_API\PhotoForce_API\bin\System.Web.Razor.xml
+E:\Blazar\Blazar\Blazar_API\PhotoForce_API\PhotoForce_API\bin\System.Web.WebPages.xml
+E:\Blazar\Blazar\Blazar_API\PhotoForce_API\PhotoForce_API\bin\System.Web.WebPages.Deployment.xml
+E:\Blazar\Blazar\Blazar_API\PhotoForce_API\PhotoForce_API\bin\System.Web.WebPages.Razor.xml
+E:\Blazar\Blazar\Blazar_API\PhotoForce_API\PhotoForce_API\obj\Debug\PhotoForce_API.dll
+E:\Blazar\Blazar\Blazar_API\PhotoForce_API\PhotoForce_API\obj\Debug\PhotoForce_API.pdb

@@ -1,0 +1,838 @@
+F:\Mixing\SQLHelper\bin\Debug\SQLHelper.dll
+F:\Mixing\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\Mixing\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\Mixing\SQLHelper\obj\Debug\SQLHelper.dll
+F:\Mixing\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\SQLHelper\bin\Debug\SQLHelper.dll
+D:\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\SQLHelper\obj\Debug\SQLHelper.dll
+D:\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\AceTyresLTD\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\AceTyresLTD\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\AceTyresLTD\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\AceTyresLTD\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\AceTyresLTD\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\AceTyres_ERP\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\AceTyres_ERP\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\AceTyres_ERP\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\AceTyres_ERP\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\AceTyres_ERP\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+C:\Documents and Settings\it1\Desktop\AceTyres_ERP(20-11)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+C:\Documents and Settings\it1\Desktop\AceTyres_ERP(20-11)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+C:\Documents and Settings\it1\Desktop\AceTyres_ERP(20-11)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\it1\Desktop\AceTyres_ERP(20-11)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+C:\Documents and Settings\it1\Desktop\AceTyres_ERP(20-11)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+C:\Users\Administrator\Desktop\AceTyres_ERP(20-11)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+C:\Users\Administrator\Desktop\AceTyres_ERP(20-11)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+C:\Users\Administrator\Desktop\AceTyres_ERP(20-11)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\AceTyres_ERP(20-11)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+C:\Users\Administrator\Desktop\AceTyres_ERP(20-11)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+G:\New folder (2)\AceTyres_ERP(20-11)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+G:\New folder (2)\AceTyres_ERP(20-11)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+G:\New folder (2)\AceTyres_ERP(20-11)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+G:\New folder (2)\AceTyres_ERP(20-11)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+G:\New folder (2)\AceTyres_ERP(20-11)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(20-11)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\AceTyres_ERP(20-11)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(20-11)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\AceTyres_ERP(20-11)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\AceTyres_ERP(20-11)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(20-11)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(20-11)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(20-11)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(20-11)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(20-11)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(30-11)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(30-11)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(30-11)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(30-11)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(30-11)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(30-11)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\AceTyres_ERP(30-11)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(30-11)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\AceTyres_ERP(30-11)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\AceTyres_ERP(30-11)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(6-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(6-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(6-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(6-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(6-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(7-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(7-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(7-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(7-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(7-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(8-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(8-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(8-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(8-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(8-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(9-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(9-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(9-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(9-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(9-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(10-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(10-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(10-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(10-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(10-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(11-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(11-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(11-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(11-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(11-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(13-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(13-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(13-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(13-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(13-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(14-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(14-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(14-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(14-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(14-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(16-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(16-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(16-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(16-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(16-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(17-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(17-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(17-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(17-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(17-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(20-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(20-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(20-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(20-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(20-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(22-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(22-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(22-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(22-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(22-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+C:\Users\it-5\Desktop\AceTyres_ERP(22-12FN)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+C:\Users\it-5\Desktop\AceTyres_ERP(22-12FN)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+C:\Users\it-5\Desktop\AceTyres_ERP(22-12FN)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\it-5\Desktop\AceTyres_ERP(22-12FN)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+C:\Users\it-5\Desktop\AceTyres_ERP(22-12FN)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+C:\Users\it-5\Desktop\AceTyres_ERP(24-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+C:\Users\it-5\Desktop\AceTyres_ERP(24-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+C:\Users\it-5\Desktop\AceTyres_ERP(24-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\it-5\Desktop\AceTyres_ERP(24-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+C:\Users\it-5\Desktop\AceTyres_ERP(24-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\1 LiveBackUp\Coding\AceTyres_ERP(27-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\1 LiveBackUp\Coding\AceTyres_ERP(27-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\1 LiveBackUp\Coding\AceTyres_ERP(27-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\1 LiveBackUp\Coding\AceTyres_ERP(27-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\1 LiveBackUp\Coding\AceTyres_ERP(27-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\Today\AceTyres_ERP(28-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\Today\AceTyres_ERP(28-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\Today\AceTyres_ERP(28-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\Today\AceTyres_ERP(28-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\Today\AceTyres_ERP(28-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Today\AceTyres_ERP(29-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Today\AceTyres_ERP(29-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Today\AceTyres_ERP(29-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Today\AceTyres_ERP(29-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Today\AceTyres_ERP(29-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\Today\AceTyres_ERP(31-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\Today\AceTyres_ERP(31-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\Today\AceTyres_ERP(31-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\Today\AceTyres_ERP(31-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\Today\AceTyres_ERP(31-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(31-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(31-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(31-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(31-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(31-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(4-01)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\AceTyres_ERP(4-01)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(4-01)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\AceTyres_ERP(4-01)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\AceTyres_ERP(4-01)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(4-01)New\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\AceTyres_ERP(4-01)New\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(4-01)New\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\AceTyres_ERP(4-01)New\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\AceTyres_ERP(4-01)New\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(7-01)New\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\AceTyres_ERP(7-01)New\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(7-01)New\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\AceTyres_ERP(7-01)New\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\AceTyres_ERP(7-01)New\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(8-01)New\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\AceTyres_ERP(8-01)New\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(8-01)New\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\AceTyres_ERP(8-01)New\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\AceTyres_ERP(8-01)New\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(19-01)New\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\AceTyres_ERP(19-01)New\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(19-01)New\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\AceTyres_ERP(19-01)New\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\AceTyres_ERP(19-01)New\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\back up 21.1.11\AceTyres_ERP(20-01)New\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\back up 21.1.11\AceTyres_ERP(20-01)New\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\back up 21.1.11\AceTyres_ERP(20-01)New\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\back up 21.1.11\AceTyres_ERP(20-01)New\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\back up 21.1.11\AceTyres_ERP(20-01)New\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(20-01)New\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\AceTyres_ERP(20-01)New\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(20-01)New\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\AceTyres_ERP(20-01)New\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\AceTyres_ERP(20-01)New\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(24-01)New\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\AceTyres_ERP(24-01)New\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(24-01)New\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\AceTyres_ERP(24-01)New\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\AceTyres_ERP(24-01)New\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\AceTyres_ERP(24-01)New1\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\AceTyres_ERP(24-01)New1\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\AceTyres_ERP(24-01)New1\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\AceTyres_ERP(24-01)New1\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\AceTyres_ERP(24-01)New1\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\AceTyres_ERP(24-01)New1\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\AceTyres_ERP(24-01)New1\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\AceTyres_ERP(24-01)New1\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\AceTyres_ERP(24-01)New1\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\AceTyres_ERP(24-01)New1\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\New Folder\AceTyres_ERP(24-01)New1\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\New Folder\AceTyres_ERP(24-01)New1\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\New Folder\AceTyres_ERP(24-01)New1\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\New Folder\AceTyres_ERP(24-01)New1\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\New Folder\AceTyres_ERP(24-01)New1\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\AceTyres_ERP(02-02)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\AceTyres_ERP(02-02)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\AceTyres_ERP(02-02)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\AceTyres_ERP(02-02)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\AceTyres_ERP(02-02)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\AceTyres_ERP(02-07)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\AceTyres_ERP(02-07)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\AceTyres_ERP(02-07)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\AceTyres_ERP(02-07)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\AceTyres_ERP(02-07)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\AceTyres_ERP(02-09)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\AceTyres_ERP(02-09)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\AceTyres_ERP(02-09)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\AceTyres_ERP(02-09)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\AceTyres_ERP(02-09)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+C:\Documents and Settings\it-6\Desktop\AceTyres_ERP(02-09)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+C:\Documents and Settings\it-6\Desktop\AceTyres_ERP(02-09)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+C:\Documents and Settings\it-6\Desktop\AceTyres_ERP(02-09)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\it-6\Desktop\AceTyres_ERP(02-09)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+C:\Documents and Settings\it-6\Desktop\AceTyres_ERP(02-09)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\AceTyres_ERP(02-11)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\AceTyres_ERP(02-11)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\AceTyres_ERP(02-11)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\AceTyres_ERP(02-11)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\AceTyres_ERP(02-11)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\ace\AceTyres_ERP(02-11)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\ace\AceTyres_ERP(02-11)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\ace\AceTyres_ERP(02-11)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\ace\AceTyres_ERP(02-11)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\ace\AceTyres_ERP(02-11)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\ace\AceTyres_ERP(02-17)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\ace\AceTyres_ERP(02-17)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\ace\AceTyres_ERP(02-17)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\ace\AceTyres_ERP(02-17)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\ace\AceTyres_ERP(02-17)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\AceTyres_ERP(02-21)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\AceTyres_ERP(02-21)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\AceTyres_ERP(02-21)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\AceTyres_ERP(02-21)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\AceTyres_ERP(02-21)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\ace\AceTyres_ERP(02-24)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\ace\AceTyres_ERP(02-24)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\ace\AceTyres_ERP(02-24)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\ace\AceTyres_ERP(02-24)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\ace\AceTyres_ERP(02-24)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\ace\AceTyres_ERP(02-25)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\ace\AceTyres_ERP(02-25)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\ace\AceTyres_ERP(02-25)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\ace\AceTyres_ERP(02-25)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\ace\AceTyres_ERP(02-25)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\ace\AceTyres_ERP(02-28)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\ace\AceTyres_ERP(02-28)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\ace\AceTyres_ERP(02-28)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\ace\AceTyres_ERP(02-28)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\ace\AceTyres_ERP(02-28)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\AceTyres_ERP(02-28)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\AceTyres_ERP(02-28)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\AceTyres_ERP(02-28)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\AceTyres_ERP(02-28)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\AceTyres_ERP(02-28)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\AceTyres_ERP(03-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\AceTyres_ERP(03-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\AceTyres_ERP(03-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\AceTyres_ERP(03-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\AceTyres_ERP(03-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\ACE ERP\AceTyres_ERP(03-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\ACE ERP\AceTyres_ERP(03-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\ACE ERP\AceTyres_ERP(03-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\ACE ERP\AceTyres_ERP(03-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\ACE ERP\AceTyres_ERP(03-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(03-12)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(03-12)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(03-12)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(03-12)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(03-12)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\ACE ERP\AceTyres_ERP\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\ACE ERP\AceTyres_ERP\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\ACE ERP\AceTyres_ERP\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\ACE ERP\AceTyres_ERP\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\ACE ERP\AceTyres_ERP\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\ACE ERP\AceTyres_ERP(3-22)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\ACE ERP\AceTyres_ERP(3-22)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\ACE ERP\AceTyres_ERP(3-22)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\ACE ERP\AceTyres_ERP(3-22)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\ACE ERP\AceTyres_ERP(3-22)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(3-26)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(3-26)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(3-26)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(3-26)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(3-26)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(3-29)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(3-29)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(3-29)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(3-29)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(3-29)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\ACE ERP\AceTyres_ERP(3-29)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\ACE ERP\AceTyres_ERP(3-29)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\ACE ERP\AceTyres_ERP(3-29)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\ACE ERP\AceTyres_ERP(3-29)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\ACE ERP\AceTyres_ERP(3-29)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(4-01)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(4-01)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(4-01)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(4-01)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(4-01)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(4-11)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(4-11)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(4-11)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(4-11)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(4-11)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(4-15)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(4-15)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(4-15)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(4-15)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(4-15)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\ACE ERP\AceTyres_ERP(4-16)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\ACE ERP\AceTyres_ERP(4-16)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\ACE ERP\AceTyres_ERP(4-16)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\ACE ERP\AceTyres_ERP(4-16)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\ACE ERP\AceTyres_ERP(4-16)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(4-16)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(4-16)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(4-16)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(4-16)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(4-16)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(4-16)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(4-16)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(4-16)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(4-16)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(4-16)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\ACE ERP\AceTyres_ERP(4-21)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\ACE ERP\AceTyres_ERP(4-21)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\ACE ERP\AceTyres_ERP(4-21)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\ACE ERP\AceTyres_ERP(4-21)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\ACE ERP\AceTyres_ERP(4-21)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\ACE ERP\AceTyres_ERP(04-21)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\ACE ERP\AceTyres_ERP(04-21)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\ACE ERP\AceTyres_ERP(04-21)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\ACE ERP\AceTyres_ERP(04-21)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\ACE ERP\AceTyres_ERP(04-21)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\Projects(it-6)\AceTyres_ERP(04-21)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\Projects(it-6)\AceTyres_ERP(04-21)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\Projects(it-6)\AceTyres_ERP(04-21)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects(it-6)\AceTyres_ERP(04-21)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\Projects(it-6)\AceTyres_ERP(04-21)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\ACE ERP\Projects(it-6)\AceTyres_ERP(04-21)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\ACE ERP\Projects(it-6)\AceTyres_ERP(04-21)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\ACE ERP\Projects(it-6)\AceTyres_ERP(04-21)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\ACE ERP\Projects(it-6)\AceTyres_ERP(04-21)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\ACE ERP\Projects(it-6)\AceTyres_ERP(04-21)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(05-17)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(05-17)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(05-17)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(05-17)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(05-17)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(05-18)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(05-18)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(05-18)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(05-18)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(05-18)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(05-20)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(05-20)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(05-20)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(05-20)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(05-20)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(05-27)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(05-27)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(05-27)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(05-27)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(05-27)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(06-09)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(06-09)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(06-09)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(06-09)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(06-09)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(06-09)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(06-09)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(06-09)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(06-09)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(06-09)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(06-09)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\AceTyres_ERP(06-09)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(06-09)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\AceTyres_ERP(06-09)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\AceTyres_ERP(06-09)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\Latest\AceTyres_ERP(07-18)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\Latest\AceTyres_ERP(07-18)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\Latest\AceTyres_ERP(07-18)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\Latest\AceTyres_ERP(07-18)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\Latest\AceTyres_ERP(07-18)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(07-18)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\AceTyres_ERP(07-18)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(07-18)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\AceTyres_ERP(07-18)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\AceTyres_ERP(07-18)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(07-29)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\AceTyres_ERP(07-29)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(07-29)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\AceTyres_ERP(07-29)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\AceTyres_ERP(07-29)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(08-06)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\AceTyres_ERP(08-06)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(08-06)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\AceTyres_ERP(08-06)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\AceTyres_ERP(08-06)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(aug 13)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\AceTyres_ERP(aug 13)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(aug 13)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\AceTyres_ERP(aug 13)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\AceTyres_ERP(aug 13)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(aug 13)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(aug 13)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(aug 13)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(aug 13)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(aug 13)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(AUG 19 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(AUG 19 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(AUG 19 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(AUG 19 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(AUG 19 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(12 SEP 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(12 SEP 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(12 SEP 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\LATEST\AceTyres_ERP(12 SEP 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(12 SEP 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(14 SEP 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(14 SEP 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(14 SEP 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\LATEST\AceTyres_ERP(14 SEP 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(14 SEP 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(19 SEP 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(19 SEP 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(19 SEP 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\LATEST\AceTyres_ERP(19 SEP 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(19 SEP 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(21 SEP 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(21 SEP 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(21 SEP 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\LATEST\AceTyres_ERP(21 SEP 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(21 SEP 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(26 SEP 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(26 SEP 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(26 SEP 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\LATEST\AceTyres_ERP(26 SEP 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(26 SEP 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(28 SEP 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(28 SEP 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(28 SEP 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\LATEST\AceTyres_ERP(28 SEP 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(28 SEP 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(05 oct 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(05 oct 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(05 oct 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\LATEST\AceTyres_ERP(05 oct 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(05 oct 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(13 oct 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(13 oct 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(13 oct 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\LATEST\AceTyres_ERP(13 oct 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(13 oct 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(15 oct 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(15 oct 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(15 oct 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\LATEST\AceTyres_ERP(15 oct 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(15 oct 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(19 oct 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(19 oct 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(19 oct 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\LATEST\AceTyres_ERP(19 oct 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(19 oct 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(20 oct 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(20 oct 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(20 oct 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\LATEST\AceTyres_ERP(20 oct 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(20 oct 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(22 oct 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(22 oct 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(22 oct 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\LATEST\AceTyres_ERP(22 oct 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(22 oct 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(27 oct 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(27 oct 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(27 oct 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\LATEST\AceTyres_ERP(27 oct 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(27 oct 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\ace back\AceTyres_ERP(27 oct 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\ace back\AceTyres_ERP(27 oct 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\ace back\AceTyres_ERP(27 oct 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\ace back\AceTyres_ERP(27 oct 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\ace back\AceTyres_ERP(27 oct 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\ace back\AceTyres_ERP(09 nov  2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\ace back\AceTyres_ERP(09 nov  2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\ace back\AceTyres_ERP(09 nov  2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\ace back\AceTyres_ERP(09 nov  2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\ace back\AceTyres_ERP(09 nov  2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\Projects\ACE ERP\AceTyres_ERP(11 nov  2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\Projects\ACE ERP\AceTyres_ERP(11 nov  2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\Projects\ACE ERP\AceTyres_ERP(11 nov  2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects\ACE ERP\AceTyres_ERP(11 nov  2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\Projects\ACE ERP\AceTyres_ERP(11 nov  2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+C:\Documents and Settings\it6\Desktop\AceTyres_ERP(11 nov  2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+C:\Documents and Settings\it6\Desktop\AceTyres_ERP(11 nov  2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+C:\Documents and Settings\it6\Desktop\AceTyres_ERP(11 nov  2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\it6\Desktop\AceTyres_ERP(11 nov  2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+C:\Documents and Settings\it6\Desktop\AceTyres_ERP(11 nov  2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(21 Nov  2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(21 Nov  2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\LATEST\AceTyres_ERP(21 Nov  2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\LATEST\AceTyres_ERP(21 Nov  2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\LATEST\AceTyres_ERP(21 Nov  2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+G:\LATEST\AceTyres_ERP(21 Nov  2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+G:\LATEST\AceTyres_ERP(21 Nov  2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+G:\LATEST\AceTyres_ERP(21 Nov  2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+G:\LATEST\AceTyres_ERP(21 Nov  2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+G:\LATEST\AceTyres_ERP(21 Nov  2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+G:\LATEST\AceTyres_ERP(30 Nov  2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+G:\LATEST\AceTyres_ERP(30 Nov  2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+G:\LATEST\AceTyres_ERP(30 Nov  2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+G:\LATEST\AceTyres_ERP(30 Nov  2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+G:\LATEST\AceTyres_ERP(30 Nov  2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(09 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(09 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(09 Dec 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(09 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(09 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(09 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+E:\AceTyres_ERP(09 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\AceTyres_ERP(09 Dec 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\AceTyres_ERP(09 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+E:\AceTyres_ERP(09 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(16 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(16 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(16 Dec 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(16 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(16 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+C:\Documents and Settings\pavan1\Desktop\AceTyres_ERP(20  Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+C:\Documents and Settings\pavan1\Desktop\AceTyres_ERP(20  Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+C:\Documents and Settings\pavan1\Desktop\AceTyres_ERP(20  Dec 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\pavan1\Desktop\AceTyres_ERP(20  Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+C:\Documents and Settings\pavan1\Desktop\AceTyres_ERP(20  Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+C:\Documents and Settings\pavan1\Desktop\AceTyres_ERP(23 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+C:\Documents and Settings\pavan1\Desktop\AceTyres_ERP(23 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+C:\Documents and Settings\pavan1\Desktop\AceTyres_ERP(23 Dec 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\pavan1\Desktop\AceTyres_ERP(23 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+C:\Documents and Settings\pavan1\Desktop\AceTyres_ERP(23 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+G:\AceTyres_ERP(23 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+G:\AceTyres_ERP(23 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+G:\AceTyres_ERP(23 Dec 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+G:\AceTyres_ERP(23 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+G:\AceTyres_ERP(23 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(26 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(26 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(26 Dec 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(26 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(26 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+G:\LATEST\AceTyres_ERP(26 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+G:\LATEST\AceTyres_ERP(26 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+G:\LATEST\AceTyres_ERP(26 Dec 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+G:\LATEST\AceTyres_ERP(26 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+G:\LATEST\AceTyres_ERP(26 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(30 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(30 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(30 Dec 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(30 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(30 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+G:\LATEST\AceTyres_ERP(30 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+G:\LATEST\AceTyres_ERP(30 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+G:\LATEST\AceTyres_ERP(30 Dec 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+G:\LATEST\AceTyres_ERP(30 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+G:\LATEST\AceTyres_ERP(30 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(30 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(30 Dec 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(30 Dec 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(30 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(30 Dec 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(3 Jan 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(3 Jan 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(3 Jan 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(3 Jan 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(3 Jan 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(5 Jan 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(5 Jan 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(5 Jan 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(5 Jan 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(5 Jan 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(5 Jan 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(5 Jan 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(5 Jan 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(5 Jan 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(5 Jan 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(11 Jan 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(11 Jan 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(11 Jan 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(11 Jan 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(11 Jan 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(11 Jan 2011)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(11 Jan 2011)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(11 Jan 2011)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(11 Jan 2011)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\Projects\ACE ERP NEW\AceTyres_ERP(11 Jan 2011)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(24 Jan 2012)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(24 Jan 2012)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(24 Jan 2012)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(24 Jan 2012)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(24 Jan 2012)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(26 Jan 2012)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(26 Jan 2012)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(26 Jan 2012)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(26 Jan 2012)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(26 Jan 2012)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(31 Jan 2012)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(31 Jan 2012)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(31 Jan 2012)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(31 Jan 2012)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(31 Jan 2012)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(06 Feb 2012)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(06 Feb 2012)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(06 Feb 2012)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(06 Feb 2012)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(06 Feb 2012)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(07 Feb 2012)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(07 Feb 2012)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(07 Feb 2012)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(07 Feb 2012)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(07 Feb 2012)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\ANIL SYSTEM\Projects\ACE ERP NEW\AceTyres_ERP(15 Feb 2012)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+D:\ANIL SYSTEM\Projects\ACE ERP NEW\AceTyres_ERP(15 Feb 2012)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\ANIL SYSTEM\Projects\ACE ERP NEW\AceTyres_ERP(15 Feb 2012)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\ANIL SYSTEM\Projects\ACE ERP NEW\AceTyres_ERP(15 Feb 2012)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+D:\ANIL SYSTEM\Projects\ACE ERP NEW\AceTyres_ERP(15 Feb 2012)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(21 Feb 2012)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(21 Feb 2012)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(21 Feb 2012)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(21 Feb 2012)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(21 Feb 2012)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(1 Mar 2012)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(1 Mar 2012)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\AceTyres_ERP(1 Mar 2012)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\AceTyres_ERP(1 Mar 2012)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\AceTyres_ERP(1 Mar 2012)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(6 Mar 2012)\Include\SQLHelper\bin\Debug\SQLHelper.dll
+F:\AceTyres_ERP(6 Mar 2012)\Include\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\AceTyres_ERP(6 Mar 2012)\Include\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\AceTyres_ERP(6 Mar 2012)\Include\SQLHelper\obj\Debug\SQLHelper.dll
+F:\AceTyres_ERP(6 Mar 2012)\Include\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\MovieTickets\OnlineMovieTicketBooking\SQLHelper\bin\Debug\SQLHelper.dll
+F:\MovieTickets\OnlineMovieTicketBooking\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\MovieTickets\OnlineMovieTicketBooking\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\MovieTickets\OnlineMovieTicketBooking\SQLHelper\obj\Debug\SQLHelper.dll
+F:\MovieTickets\OnlineMovieTicketBooking\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\Charan\SQLHelper\bin\Debug\SQLHelper.dll
+F:\Charan\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\Charan\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\Charan\SQLHelper\obj\Debug\SQLHelper.dll
+F:\Charan\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\LATEST\Charan\SQLHelper\bin\Debug\SQLHelper.dll
+F:\LATEST\Charan\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\LATEST\Charan\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST\Charan\SQLHelper\obj\Debug\SQLHelper.dll
+F:\LATEST\Charan\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\New folder (2)\Charan\SQLHelper\bin\Debug\SQLHelper.dll
+E:\New folder (2)\Charan\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\New folder (2)\Charan\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\New folder (2)\Charan\SQLHelper\obj\Debug\SQLHelper.dll
+E:\New folder (2)\Charan\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\Charan(18-04-2012)\Charan\SQLHelper\bin\Debug\SQLHelper.dll
+F:\Charan(18-04-2012)\Charan\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\Charan(18-04-2012)\Charan\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\Charan(18-04-2012)\Charan\SQLHelper\obj\Debug\SQLHelper.dll
+F:\Charan(18-04-2012)\Charan\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\Charan\SQLHelper\bin\Debug\SQLHelper.dll
+E:\Charan\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\Charan\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\Charan\SQLHelper\obj\Debug\SQLHelper.dll
+E:\Charan\SQLHelper\obj\Debug\SQLHelper.pdb
+C:\Users\anil.pv\Desktop\Charan\SQLHelper\bin\Debug\SQLHelper.dll
+C:\Users\anil.pv\Desktop\Charan\SQLHelper\bin\Debug\SQLHelper.pdb
+C:\Users\anil.pv\Desktop\Charan\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\anil.pv\Desktop\Charan\SQLHelper\obj\Debug\SQLHelper.dll
+C:\Users\anil.pv\Desktop\Charan\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\latest\Charan old\SQLHelper\bin\Debug\SQLHelper.dll
+F:\latest\Charan old\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\latest\Charan old\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\latest\Charan old\SQLHelper\obj\Debug\SQLHelper.dll
+F:\latest\Charan old\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\CityCinemas\SQLHelper\bin\Debug\SQLHelper.dll
+F:\CityCinemas\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\CityCinemas\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\CityCinemas\SQLHelper\obj\Debug\SQLHelper.dll
+F:\CityCinemas\SQLHelper\obj\Debug\SQLHelper.pdb
+C:\Users\prsmod\Desktop\CityCinemas\SQLHelper\bin\Debug\SQLHelper.dll
+C:\Users\prsmod\Desktop\CityCinemas\SQLHelper\bin\Debug\SQLHelper.pdb
+C:\Users\prsmod\Desktop\CityCinemas\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\prsmod\Desktop\CityCinemas\SQLHelper\obj\Debug\SQLHelper.dll
+C:\Users\prsmod\Desktop\CityCinemas\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\New folder\ANIL\CityCinemas\SQLHelper\bin\Debug\SQLHelper.dll
+D:\New folder\ANIL\CityCinemas\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\New folder\ANIL\CityCinemas\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\New folder\ANIL\CityCinemas\SQLHelper\obj\Debug\SQLHelper.dll
+D:\New folder\ANIL\CityCinemas\SQLHelper\obj\Debug\SQLHelper.pdb
+C:\Users\anil.pv\Desktop\CityCinemas\SQLHelper\bin\Debug\SQLHelper.dll
+C:\Users\anil.pv\Desktop\CityCinemas\SQLHelper\bin\Debug\SQLHelper.pdb
+C:\Users\anil.pv\Desktop\CityCinemas\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\anil.pv\Desktop\CityCinemas\SQLHelper\obj\Debug\SQLHelper.dll
+C:\Users\anil.pv\Desktop\CityCinemas\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\CityCinemas\SQLHelper\bin\Debug\SQLHelper.dll
+E:\CityCinemas\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\CityCinemas\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\CityCinemas\SQLHelper\obj\Debug\SQLHelper.dll
+E:\CityCinemas\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\ANIL SYSTEM\AnilSYS\CityCinemas\SQLHelper\bin\Debug\SQLHelper.dll
+D:\ANIL SYSTEM\AnilSYS\CityCinemas\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\ANIL SYSTEM\AnilSYS\CityCinemas\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\ANIL SYSTEM\AnilSYS\CityCinemas\SQLHelper\obj\Debug\SQLHelper.dll
+D:\ANIL SYSTEM\AnilSYS\CityCinemas\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\Project\CityCinemas\SQLHelper\bin\Debug\SQLHelper.dll
+F:\Project\CityCinemas\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\Project\CityCinemas\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\CityCinemas\SQLHelper\obj\Debug\SQLHelper.dll
+F:\Project\CityCinemas\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\Personal\Project\CityCinemas\SQLHelper\bin\Debug\SQLHelper.dll
+E:\Personal\Project\CityCinemas\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\Personal\Project\CityCinemas\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\Personal\Project\CityCinemas\SQLHelper\obj\Debug\SQLHelper.dll
+E:\Personal\Project\CityCinemas\SQLHelper\obj\Debug\SQLHelper.pdb
+C:\Users\prsmod\Desktop\Project\CityCinemas\SQLHelper\bin\Debug\SQLHelper.dll
+C:\Users\prsmod\Desktop\Project\CityCinemas\SQLHelper\bin\Debug\SQLHelper.pdb
+C:\Users\prsmod\Desktop\Project\CityCinemas\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\prsmod\Desktop\Project\CityCinemas\SQLHelper\obj\Debug\SQLHelper.dll
+C:\Users\prsmod\Desktop\Project\CityCinemas\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\PAVAN\dotnet code\Project\CityCinemas\SQLHelper\bin\Debug\SQLHelper.dll
+E:\PAVAN\dotnet code\Project\CityCinemas\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\PAVAN\dotnet code\Project\CityCinemas\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\PAVAN\dotnet code\Project\CityCinemas\SQLHelper\obj\Debug\SQLHelper.dll
+E:\PAVAN\dotnet code\Project\CityCinemas\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\adad\PAVAN\dotnet code\Project\CityCinemas\SQLHelper\bin\Debug\SQLHelper.dll
+E:\adad\PAVAN\dotnet code\Project\CityCinemas\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\adad\PAVAN\dotnet code\Project\CityCinemas\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\adad\PAVAN\dotnet code\Project\CityCinemas\SQLHelper\obj\Debug\SQLHelper.dll
+E:\adad\PAVAN\dotnet code\Project\CityCinemas\SQLHelper\obj\Debug\SQLHelper.pdb
+C:\Users\anil\Desktop\CityCinemas\SQLHelper\bin\Debug\SQLHelper.dll
+C:\Users\anil\Desktop\CityCinemas\SQLHelper\bin\Debug\SQLHelper.pdb
+C:\Users\anil\Desktop\CityCinemas\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\anil\Desktop\CityCinemas\SQLHelper\obj\Debug\SQLHelper.dll
+C:\Users\anil\Desktop\CityCinemas\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\pavan\DotNet\Diagnosis Center\Diagnosis\SQLHelper\bin\Debug\SQLHelper.dll
+F:\pavan\DotNet\Diagnosis Center\Diagnosis\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\pavan\DotNet\Diagnosis Center\Diagnosis\SQLHelper\obj\Debug\SQLHelper.dll
+F:\pavan\DotNet\Diagnosis Center\Diagnosis\SQLHelper\obj\Debug\SQLHelper.pdb
+G:\PAVAN\Diagnosis Center\Diagnosis\SQLHelper\bin\Debug\SQLHelper.dll
+G:\PAVAN\Diagnosis Center\Diagnosis\SQLHelper\bin\Debug\SQLHelper.pdb
+G:\PAVAN\Diagnosis Center\Diagnosis\SQLHelper\obj\Debug\SQLHelper.dll
+G:\PAVAN\Diagnosis Center\Diagnosis\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\pavan\DotNet\Diagnosis Center\Diagnosis\SQLHelper\bin\Debug\SQLHelper.dll
+E:\pavan\DotNet\Diagnosis Center\Diagnosis\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\pavan\DotNet\Diagnosis Center\Diagnosis\SQLHelper\obj\Debug\SQLHelper.dll
+E:\pavan\DotNet\Diagnosis Center\Diagnosis\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\Projects\Diagnosis Center\Diagnosis\SQLHelper\bin\Debug\SQLHelper.dll
+F:\Projects\Diagnosis Center\Diagnosis\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\Projects\Diagnosis Center\Diagnosis\SQLHelper\obj\Debug\SQLHelper.dll
+F:\Projects\Diagnosis Center\Diagnosis\SQLHelper\obj\Debug\SQLHelper.pdb
+C:\Users\gussmann_pc\Desktop\Diagnosis\SQLHelper\bin\Debug\SQLHelper.dll
+C:\Users\gussmann_pc\Desktop\Diagnosis\SQLHelper\bin\Debug\SQLHelper.pdb
+C:\Users\gussmann_pc\Desktop\Diagnosis\SQLHelper\obj\Debug\SQLHelper.dll
+C:\Users\gussmann_pc\Desktop\Diagnosis\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Anil Backup Folder\Diagnosis\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Anil Backup Folder\Diagnosis\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Anil Backup Folder\Diagnosis\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Anil Backup Folder\Diagnosis\SQLHelper\obj\Debug\SQLHelper.pdb
+C:\Users\pavan\Desktop\Diagnosis\SQLHelper\bin\Debug\SQLHelper.dll
+C:\Users\pavan\Desktop\Diagnosis\SQLHelper\bin\Debug\SQLHelper.pdb
+C:\Users\pavan\Desktop\Diagnosis\SQLHelper\obj\Debug\SQLHelper.dll
+C:\Users\pavan\Desktop\Diagnosis\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\Applications\Diagnosis\Diagnosis Code\Diagnosis\SQLHelper\bin\Debug\SQLHelper.dll
+F:\Applications\Diagnosis\Diagnosis Code\Diagnosis\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\Applications\Diagnosis\Diagnosis Code\Diagnosis\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\Applications\Diagnosis\Diagnosis Code\Diagnosis\SQLHelper\obj\Debug\SQLHelper.dll
+F:\Applications\Diagnosis\Diagnosis Code\Diagnosis\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\Projects\Diagnosis Center\Diagnosis Code\Diagnosis\SQLHelper\bin\Debug\SQLHelper.dll
+F:\Projects\Diagnosis Center\Diagnosis Code\Diagnosis\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\Projects\Diagnosis Center\Diagnosis Code\Diagnosis\SQLHelper\obj\Debug\SQLHelper.dll
+F:\Projects\Diagnosis Center\Diagnosis Code\Diagnosis\SQLHelper\obj\Debug\SQLHelper.pdb
+F:\Projects\IOneBill\IOneBill Code\IOneBill\SQLHelper\bin\Debug\SQLHelper.dll
+F:\Projects\IOneBill\IOneBill Code\IOneBill\SQLHelper\bin\Debug\SQLHelper.pdb
+F:\Projects\IOneBill\IOneBill Code\IOneBill\SQLHelper\obj\Debug\SQLHelper.dll
+F:\Projects\IOneBill\IOneBill Code\IOneBill\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Blazar\IOneBill\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Blazar\IOneBill\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Blazar\IOneBill\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Blazar\IOneBill\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Blazar\IOneBill\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Blazar\Blazar\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Blazar\Blazar\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Blazar\Blazar\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Blazar\Blazar\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Blazar\Blazar\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Blazar\bk\Blazar\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Blazar\bk\Blazar\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Blazar\bk\Blazar\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\Blazar\bk\Blazar\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Blazar\bk\Blazar\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\New folder\SQLHelper\bin\Debug\SQLHelper.dll
+D:\New folder\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\New folder\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\New folder\SQLHelper\obj\Debug\SQLHelper.dll
+D:\New folder\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\PhotoForceReports\SQLHelper\bin\Debug\SQLHelper.dll
+D:\PhotoForceReports\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\PhotoForceReports\SQLHelper\obj\Debug\SQLHelper.dll
+D:\PhotoForceReports\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Ravindra\Inwards\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Ravindra\Inwards\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Ravindra\Inwards\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Ravindra\Inwards\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Ravindra\Inwards\SQLHelper\obj\Debug\SQLHelper.csprojResolveAssemblyReference.cache
+D:\Projects\Inventory_Mang\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\Inventory_Mang\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\Inventory_Mang\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\Inventory_Mang\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\StoreManagement\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\StoreManagement\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\StoreManagement\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\StoreManagement\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\Projects\StoreManagement\SQLHelper\obj\Debug\SQLHelper.csprojResolveAssemblyReference.cache
+D:\Projects\SiteManagements\Site_Mang\SQLHelper\bin\Debug\SQLHelper.dll
+D:\Projects\SiteManagements\Site_Mang\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\Projects\SiteManagements\Site_Mang\SQLHelper\obj\Debug\SQLHelper.dll
+D:\Projects\SiteManagements\Site_Mang\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\Projects\SiteManagements\Site_Mang\SQLHelper\bin\Debug\SQLHelper.dll
+E:\Projects\SiteManagements\Site_Mang\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\Projects\SiteManagements\Site_Mang\SQLHelper\obj\Debug\SQLHelper.dll
+E:\Projects\SiteManagements\Site_Mang\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\Projects\SiteManagements\Site_Mang\SQLHelper\obj\Debug\SQLHelper.csprojResolveAssemblyReference.cache

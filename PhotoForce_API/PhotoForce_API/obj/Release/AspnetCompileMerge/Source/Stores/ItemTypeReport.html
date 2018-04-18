@@ -1,0 +1,94 @@
+﻿
+<section class="right-content" ng-controller="ItemTypeReportCtrl">
+    <div class="row top-row-strip">
+        <div class="col-md-10">
+            <ol class="breadcrumb">
+                <li>Masters</li>
+                <li class="active">{{ItemTypeHdr}}</li>
+            </ol>
+        </div>
+        <div class="col-md-2">
+            <a class="btn btn-primary" ng-click="ItemTypeAdd()">Add Item Group</a>
+        </div>
+    </div>
+    <div class="modal fade" ng-show="Model" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+                </div>
+                <div class="modal-body">
+                    Are you Sure..You want to delete this record?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success theam-button btn-xs" ng-click="SDeleteConf();">Yes</button>
+                    <button type="button" class="btn btn-success theam-button btn-xs" ng-click="Cancel();">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-md-1">
+            <label>Search:</label>
+        </div>
+        <div class="col-md-3">
+            <input type="text" ng-model="Search" class="form-control" placeholder="Search">
+        </div>
+        <div class="col-md-1">
+            Status
+        </div>
+        <div class="col-md-2">
+            <select ng-model="Status" name="Status" class="form-control" ng-change="StatusChanged()">
+                <option value="Active">Active</option>
+                <option value="InActive">InActive</option>
+            </select>
+        </div>
+        <div class="col-md-offset-2 col-md-2">
+            <label>Items per page:</label>
+        </div>
+        <div class="col-md-1">
+            <input type="number" class="form-control" value="5" min="5" step="5" numbersonly ng-model="ItemsperPage">
+        </div>
+    </div>
+    <table ng-show="!Linkpermview" class="table table-bordered table-striped">
+        <tr>
+            <th>S No</th>
+            <th>Item Group</th>
+            <th>Item Group Descr</th>
+            <th>Status</th>
+            <th>Edit</th>
+            <!--<th>Delete</th>-->
+        </tr>
+        <tr>
+        <tr dir-paginate="ItemType in ItemTypes | filter:Search | itemsPerPage:ItemsperPage track by $index">
+            <td class="label-center">{{$Index+1}}</td>
+            <td>{{ItemType.ItemTypeName}}</td>
+            <td>{{ItemType.ItemTypeDescr}}</td>
+            <td class="label-center" ng-class="ItemType.Flag=='InActive' ?'inactivests':''">{{ItemType.Flag }}</td>
+            <td class="label-center">
+                <a ng-click="EditItemType(ItemType.ItemTypeID)" ng-show="ItemType.Flag !='Deleted'  && ItemType.ItemTypeID>0"><i class="fa fa-edit fa-1x"></i></a>
+            </td>
+            <!--<td class="label-center">
+                <a ng-click="DeleteUnit(Unit.UnitID)" ng-show="Unit.Flag !='Deleted'  && Unit.UnitID>0" data-toggle="modal" data-target="#myModal"><i class="fa fa-trash-o fa-1x"></i></a>
+            </td>-->
+        </tr>
+
+    </table>
+
+    <div class="row">
+        <div class="col-md-11">
+            <dir-pagination-controls max-size="10" direction-links="true" boundary-links="true">
+            </dir-pagination-controls>
+        </div>
+        <div class="col-md-1">
+            <a><img ng-click="exportToExcel()" src="../Images/excel.png" /></a>
+        </div>
+    </div>
+    <div class="overlay-loader" ng-show="loader">
+        <img src="../Images/loading.gif" />
+    </div>
+</section>
+
+
+
